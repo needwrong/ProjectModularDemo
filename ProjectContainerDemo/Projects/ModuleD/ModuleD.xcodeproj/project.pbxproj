@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		594F670E211D301100853AF8 /* ModuleD.h in Headers */ = {isa = PBXBuildFile; fileRef = 594F670C211D301100853AF8 /* ModuleD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		594F6742211D3B5900853AF8 /* UtilD.h in Headers */ = {isa = PBXBuildFile; fileRef = 594F6740211D3B5800853AF8 /* UtilD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		594F6743211D3B5900853AF8 /* UtilD.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F6741211D3B5800853AF8 /* UtilD.m */; };
+		594F6797211D678F00853AF8 /* ModuleC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F6796211D678F00853AF8 /* ModuleC.framework */; };
+		594F67A0211D72C200853AF8 /* libModuleL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F679F211D72C200853AF8 /* libModuleL.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		594F6709211D301100853AF8 /* ModuleD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		594F670C211D301100853AF8 /* ModuleD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleD.h; sourceTree = "<group>"; };
 		594F670D211D301100853AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594F6740211D3B5800853AF8 /* UtilD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilD.h; sourceTree = "<group>"; };
+		594F6741211D3B5800853AF8 /* UtilD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilD.m; sourceTree = "<group>"; };
+		594F6796211D678F00853AF8 /* ModuleC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModuleC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		594F679F211D72C200853AF8 /* libModuleL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libModuleL.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +29,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F67A0211D72C200853AF8 /* libModuleL.a in Frameworks */,
+				594F6797211D678F00853AF8 /* ModuleC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +42,7 @@
 			children = (
 				594F670B211D301100853AF8 /* ModuleD */,
 				594F670A211D301100853AF8 /* Products */,
+				594F6795211D678F00853AF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +67,19 @@
 		594F6733211D369500853AF8 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				594F6740211D3B5800853AF8 /* UtilD.h */,
+				594F6741211D3B5800853AF8 /* UtilD.m */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		594F6795211D678F00853AF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594F679F211D72C200853AF8 /* libModuleL.a */,
+				594F6796211D678F00853AF8 /* ModuleC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				594F670E211D301100853AF8 /* ModuleD.h in Headers */,
+				594F6742211D3B5900853AF8 /* UtilD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F6743211D3B5900853AF8 /* UtilD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +293,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../ModuleL/ModuleL\"";
 				INFOPLIST_FILE = ModuleD/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +318,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../ModuleL/ModuleL\"";
 				INFOPLIST_FILE = ModuleD/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (

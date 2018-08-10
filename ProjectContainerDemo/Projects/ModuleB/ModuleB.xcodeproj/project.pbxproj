@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		594F66E4211D2F7400853AF8 /* ModuleB.h in Headers */ = {isa = PBXBuildFile; fileRef = 594F66E2211D2F7400853AF8 /* ModuleB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		594F673A211D3A8900853AF8 /* UtilB.h in Headers */ = {isa = PBXBuildFile; fileRef = 594F6738211D3A8900853AF8 /* UtilB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		594F673B211D3A8900853AF8 /* UtilB.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F6739211D3A8900853AF8 /* UtilB.m */; };
+		594F675B211D459D00853AF8 /* ModuleA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F675A211D459D00853AF8 /* ModuleA.framework */; };
+		594F679C211D72B500853AF8 /* libModuleL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F679B211D72B500853AF8 /* libModuleL.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		594F66DF211D2F7400853AF8 /* ModuleB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		594F66E2211D2F7400853AF8 /* ModuleB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleB.h; sourceTree = "<group>"; };
 		594F66E3211D2F7400853AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594F6738211D3A8900853AF8 /* UtilB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilB.h; sourceTree = "<group>"; };
+		594F6739211D3A8900853AF8 /* UtilB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilB.m; sourceTree = "<group>"; };
+		594F675A211D459D00853AF8 /* ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		594F678E211D642C00853AF8 /* libModuleL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libModuleL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		594F6790211D66F900853AF8 /* libModuleL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libModuleL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		594F679B211D72B500853AF8 /* libModuleL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libModuleL.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +31,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F679C211D72B500853AF8 /* libModuleL.a in Frameworks */,
+				594F675B211D459D00853AF8 /* ModuleA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +44,7 @@
 			children = (
 				594F66E1211D2F7400853AF8 /* ModuleB */,
 				594F66E0211D2F7400853AF8 /* Products */,
+				594F6759211D459D00853AF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +69,21 @@
 		594F6731211D351700853AF8 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				594F6738211D3A8900853AF8 /* UtilB.h */,
+				594F6739211D3A8900853AF8 /* UtilB.m */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		594F6759211D459D00853AF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594F679B211D72B500853AF8 /* libModuleL.a */,
+				594F6790211D66F900853AF8 /* libModuleL.a */,
+				594F678E211D642C00853AF8 /* libModuleL.a */,
+				594F675A211D459D00853AF8 /* ModuleA.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,6 +93,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F673A211D3A8900853AF8 /* UtilB.h in Headers */,
 				594F66E4211D2F7400853AF8 /* ModuleB.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F673B211D3A8900853AF8 /* UtilB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +297,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/ModuleA-dnrncvimpqjsfdafeajtlpgkupum/Build/Products/Debug-iphonesimulator\"";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../ModuleL/ModuleL\"",
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/ProjectContainerDemo-bffwevwtsmufcbctldbkrtagyzla/Build/Products/Debug-iphonesimulator/ModuleA.framework/Headers\"",
+				);
 				INFOPLIST_FILE = ModuleB/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +326,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/ModuleA-dnrncvimpqjsfdafeajtlpgkupum/Build/Products/Debug-iphonesimulator\"";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../ModuleL/ModuleL\"",
+					"\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/ProjectContainerDemo-bffwevwtsmufcbctldbkrtagyzla/Build/Products/Debug-iphonesimulator/ModuleA.framework/Headers\"",
+				);
 				INFOPLIST_FILE = ModuleB/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (

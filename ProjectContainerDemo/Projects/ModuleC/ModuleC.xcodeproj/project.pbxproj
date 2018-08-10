@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		594F66F9211D2FCC00853AF8 /* ModuleC.h in Headers */ = {isa = PBXBuildFile; fileRef = 594F66F7211D2FCC00853AF8 /* ModuleC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		594F673E211D3AD200853AF8 /* UtilC.h in Headers */ = {isa = PBXBuildFile; fileRef = 594F673C211D3AD200853AF8 /* UtilC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		594F673F211D3AD200853AF8 /* UtilC.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F673D211D3AD200853AF8 /* UtilC.m */; };
+		594F675E211D5CD500853AF8 /* ModuleA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F675D211D5CD500853AF8 /* ModuleA.framework */; };
+		594F6760211D5CDA00853AF8 /* ModuleB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F675F211D5CDA00853AF8 /* ModuleB.framework */; };
+		594F679E211D72BD00853AF8 /* libModuleL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F679D211D72BD00853AF8 /* libModuleL.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		594F66F4211D2FCC00853AF8 /* ModuleC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		594F66F7211D2FCC00853AF8 /* ModuleC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleC.h; sourceTree = "<group>"; };
 		594F66F8211D2FCC00853AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594F673C211D3AD200853AF8 /* UtilC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilC.h; sourceTree = "<group>"; };
+		594F673D211D3AD200853AF8 /* UtilC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilC.m; sourceTree = "<group>"; };
+		594F675D211D5CD500853AF8 /* ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		594F675F211D5CDA00853AF8 /* ModuleB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModuleB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		594F679D211D72BD00853AF8 /* libModuleL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libModuleL.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +31,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F679E211D72BD00853AF8 /* libModuleL.a in Frameworks */,
+				594F6760211D5CDA00853AF8 /* ModuleB.framework in Frameworks */,
+				594F675E211D5CD500853AF8 /* ModuleA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +45,7 @@
 			children = (
 				594F66F6211D2FCC00853AF8 /* ModuleC */,
 				594F66F5211D2FCC00853AF8 /* Products */,
+				594F675C211D5CD500853AF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +70,20 @@
 		594F6732211D352800853AF8 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				594F673C211D3AD200853AF8 /* UtilC.h */,
+				594F673D211D3AD200853AF8 /* UtilC.m */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		594F675C211D5CD500853AF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594F679D211D72BD00853AF8 /* libModuleL.a */,
+				594F675F211D5CDA00853AF8 /* ModuleB.framework */,
+				594F675D211D5CD500853AF8 /* ModuleA.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,6 +93,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F673E211D3AD200853AF8 /* UtilC.h in Headers */,
 				594F66F9211D2FCC00853AF8 /* ModuleC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F673F211D3AD200853AF8 /* UtilC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

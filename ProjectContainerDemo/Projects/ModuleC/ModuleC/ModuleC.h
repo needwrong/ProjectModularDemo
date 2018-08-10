@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
 //! Project version number for ModuleC.
 FOUNDATION_EXPORT double ModuleCVersionNumber;
 

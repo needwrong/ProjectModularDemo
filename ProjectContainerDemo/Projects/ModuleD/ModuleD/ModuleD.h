@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UtilD.h"
 
 //! Project version number for ModuleD.
 FOUNDATION_EXPORT double ModuleDVersionNumber;
