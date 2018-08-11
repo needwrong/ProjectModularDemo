@@ -1,0 +1,6 @@
+framework module ModuleD {
+  umbrella header "ModuleD-umbrella.h"
+
+  export *
+  module * { export * }
+}
