@@ -24,7 +24,8 @@
     ]
   },
   "pod_target_xcconfig": {
-    "OTHER_LDFLAGS": "-ObjC"
+    "OTHER_LDFLAGS": "$(inherited) -ObjC",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
   },
   "static_framework": true,
   "prefix_header_contents": "#ifdef __OBJC__\n\n#endif"

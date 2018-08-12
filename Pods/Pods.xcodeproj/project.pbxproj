@@ -3,54 +3,77 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		025BFB2EA88B3A887D637FE9473CC60A /* UtilB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E15301CCC290B39154359BD1D17AF4A /* UtilB.m */; };
-		0ACE4C64D9923F479D985A15629499B5 /* StandaloneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A3E66A2DFCD876F3AB45D0504FFD31 /* StandaloneUtil.m */; };
-		1413E9801D5B71C187EB8A57460C7ABA /* StandaloneUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 433246E322FEE13B3B3281898C7800D9 /* StandaloneUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		150317B6C3D34C8615C4AA91D8068EC7 /* ModuleB.h in Headers */ = {isa = PBXBuildFile; fileRef = D48C520DF723149EEB81C0492282AE6D /* ModuleB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		025BFB2EA88B3A887D637FE9473CC60A /* UtilB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A894169CCBFDFA4A8859A968124FA06 /* UtilB.m */; };
+		0ACE4C64D9923F479D985A15629499B5 /* StandaloneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B6FDEAC466F491C4235739897598CA /* StandaloneUtil.m */; };
+		1413E9801D5B71C187EB8A57460C7ABA /* StandaloneUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 10EDECF5A3BE50610BE57811C915B8FD /* StandaloneUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		150317B6C3D34C8615C4AA91D8068EC7 /* ModuleB.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB79BE10979DA8C939A9A8BF2171CC1 /* ModuleB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15EB80D42B2E4FB1D7995A2A739D427F /* Pods-ProjectContainerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 477DE12DF64359D097CA0EF86088AF78 /* Pods-ProjectContainerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16D315373E5096CC85F294A5B12DFB9D /* ModuleC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFF48DA978621F2414D92BB84752486 /* ModuleC-dummy.m */; };
-		1B441D40ED6E8DCB426B1725CD0AE48F /* ModuleA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A383C4FFD61369412440BD22C170ADB /* ModuleA-dummy.m */; };
+		16D315373E5096CC85F294A5B12DFB9D /* ModuleC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7114DB5E4E4D700481DBDE8F837476A /* ModuleC-dummy.m */; };
+		1B441D40ED6E8DCB426B1725CD0AE48F /* ModuleA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8A5F076F2EA811BBFCA79277A63F9 /* ModuleA-dummy.m */; };
 		1BE0A316F6386087BE63787D73CE8750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		1F00DCDA09E175CA4CED7736D0848937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		2064B79ED83DFB824A7C5625D68B3F50 /* ModuleL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEA740AC52937DA3FD96129084B8F45 /* ModuleL.m */; };
-		233F27E79B351876108D747873674063 /* ModuleB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 268F2A5C10952832BAA5F276C0097D8C /* ModuleB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2064B79ED83DFB824A7C5625D68B3F50 /* ModuleL.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A50511C57B142EAE84ADAF9AFE30FB /* ModuleL.m */; };
+		2071DB2DAA6FB78987127EE58123CBB0 /* LOTValueDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F86C1BE152B419FA91174B53ABA95E /* LOTValueDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		233F27E79B351876108D747873674063 /* ModuleB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCA152B373579C03007FF53B945F979 /* ModuleB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26FB1E0B389C10E633BB298AC569C57B /* Pods-StandaloneProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E60A4E6EC246ADDBC93983646ED849 /* Pods-StandaloneProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		272989C62B2A9609517819E08A295993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		2C9175E80639F175DA33CF07055E211D /* UtilL.m in Sources */ = {isa = PBXBuildFile; fileRef = 258D2B610908BE11AD832259781B4BC7 /* UtilL.m */; };
-		2D622DEA8456197742620ECE53E6B9A0 /* ModuleD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFD5C37626F7C29213E4ED5A1BFD338 /* ModuleD-dummy.m */; };
-		3E33A75F98EFA2BEE17DE18EC86C859E /* ModuleL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 666AA7181F4AB3F971B0936581CE904E /* ModuleL-dummy.m */; };
-		4267F1756578C98C2D54513AB463DD83 /* UtilD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E466F63681BD995B5736016F3B40DFA /* UtilD.m */; };
-		45D3837A3A2F3A64AEA8A1726ABFF589 /* ModuleD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFD156376B5AF2B69FFBDA3CED61DB9 /* ModuleD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BA8E487ED99F108A1822FE2F2470CBD /* moduleChartNew.png in Resources */ = {isa = PBXBuildFile; fileRef = E591511098A75D9FEE8815963A6D8547 /* moduleChartNew.png */; };
-		54395DDDB733D0AF60856E9ABF85A747 /* ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = 3092ADE0E362B818E95795D56BC4611F /* ModuleA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55582C46CDB6F7858089A7EA2A0842A6 /* ModuleC.h in Headers */ = {isa = PBXBuildFile; fileRef = EF143B1C626648198D57DBC546398568 /* ModuleC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		582F1DBA4D4939D5FB70422DBA3B8234 /* UtilB.h in Headers */ = {isa = PBXBuildFile; fileRef = 1953BB6AD65E68742EA5080708F30A20 /* UtilB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2761EE9E3B517CD4D99BC6EB736F428E /* UtilL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7384DCF488A325E4FB4137B86131E91D /* UtilL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C9175E80639F175DA33CF07055E211D /* UtilL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D66F3EB0FC6A68540F82C9C8029854A /* UtilL.m */; };
+		2D622DEA8456197742620ECE53E6B9A0 /* ModuleD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DADAC2B2ED009462F40EFD08FBB2F06D /* ModuleD-dummy.m */; };
+		3501C5DC4C0ECDA76E3A9F3475C4BD0A /* mux_types.h in Headers */ = {isa = PBXBuildFile; fileRef = A860A9B4CCA292E001F1CF973ED32978 /* mux_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36995543EE4E57487C6FB284A0A7CD2B /* LOTAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFDFCEC2D37BD23BAD4E551F4C8E0217 /* LOTAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E33A75F98EFA2BEE17DE18EC86C859E /* ModuleL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 859E854FF9C6EB786195A259B4B01325 /* ModuleL-dummy.m */; };
+		4267F1756578C98C2D54513AB463DD83 /* UtilD.m in Sources */ = {isa = PBXBuildFile; fileRef = E7809EBE805E5F543C09C4CEF7DEB306 /* UtilD.m */; };
+		45A1EC36A36453DFF5853F38747643D8 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A676D350691B0C142569722C481696CD /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45D3837A3A2F3A64AEA8A1726ABFF589 /* ModuleD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E9825944A40086D4AA2356F90A8B42 /* ModuleD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BA8E487ED99F108A1822FE2F2470CBD /* moduleChartNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 548131D5399622F38EE621A0A0AFD8E9 /* moduleChartNew.png */; };
+		54395DDDB733D0AF60856E9ABF85A747 /* ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE317A8134949894D0A06A848406279 /* ModuleA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55582C46CDB6F7858089A7EA2A0842A6 /* ModuleC.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E90D30380B96014BAAFB89F717092A /* ModuleC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DB2E0F09E910D35474B2761DAAE747 /* LOTKeypath.h in Headers */ = {isa = PBXBuildFile; fileRef = D12551BD08C0043C32C5639165DFAA95 /* LOTKeypath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		582F1DBA4D4939D5FB70422DBA3B8234 /* UtilB.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB9DDBD2C08491FA1CAB784F50E0E77 /* UtilB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59D3F41CFEB4BA8E73D10ECC87BFF629 /* Pods-StandaloneProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88597D51CC1E321E3A1C94C0FECDB344 /* Pods-StandaloneProject-dummy.m */; };
-		5FA6DD1C11A7FEA2758AF5C21C26FADC /* UtilC.h in Headers */ = {isa = PBXBuildFile; fileRef = 000130C46F6DCF04E314234C029136D9 /* UtilC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ED7CDE9CE96AF5049ECBFF33B8D3055 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C4D514FE53BC748B87A8ADE31137E6 /* encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FA6DD1C11A7FEA2758AF5C21C26FADC /* UtilC.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E009F6F04E93EFB0D94D7BB639E441 /* UtilC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6306501D7E1CB40473DAF70B81432295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		68B52F19A094AFAC63001A2D998A95AD /* ModuleB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17368D941F39461D3D03EF366E4DEF69 /* ModuleB-dummy.m */; };
-		70084398AABB1CE93B18940EB6360635 /* UtilC.m in Sources */ = {isa = PBXBuildFile; fileRef = 637CB9DA6F2D93E81BDD3D947B5B5BEA /* UtilC.m */; };
-		70502A6BBF16E9F7569A7E4313E1973B /* ModuleL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9493F9D85D5E5991B296896CA464A /* ModuleL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68B52F19A094AFAC63001A2D998A95AD /* ModuleB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A5C51DFCB80886533C57D774BD8B40 /* ModuleB-dummy.m */; };
+		6AB56CFD5E514F6FA6F9D99C471F1A0D /* LOTAnimationCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A52FA1E477CF7C9BC0EFC750459C8D5A /* LOTAnimationCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D47BD2456F35184EDB603B8D4BED26F /* LOTInterpolatorCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = FA424C4C875D5EDA68D5CB877C6913B0 /* LOTInterpolatorCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FB38D2CC5303B7D2A8D85A75F86B22F /* format_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B2BF7EE4E4CB3982295EEFB726ED8B /* format_constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70084398AABB1CE93B18940EB6360635 /* UtilC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5FA3E09894CADC48C9ED2AE26A09C5 /* UtilC.m */; };
+		70F7F5BE08915E6CBC9972787331B90B /* LOTAnimationTransitionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45363371B84F4A8D0D2535AD33A5248D /* LOTAnimationTransitionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7341C8854AA52C97FCC4EF0D219914D8 /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3ECF6FCF38CCE6968AAD4140687A69E /* resources.bundle */; };
+		7786D7460276E27A83978710283C2E45 /* Lottie.h in Headers */ = {isa = PBXBuildFile; fileRef = C38BFB7B1E3B274A7358E5527CA36267 /* Lottie.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77C36A5A4318E6E709346C480C992FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		8953A23CBBBC27FD065D0DCF95F3D3EE /* ModuleC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5619E27A467183F4ABCAB3E99E2328 /* ModuleC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877298A6785870DC297C97150311AC38 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = A03E4910B2CC8F042EE3E8EF2825C83B /* decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8953A23CBBBC27FD065D0DCF95F3D3EE /* ModuleC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F3BA0F71DF77511036F6D9D6869708 /* ModuleC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D0572508870B11C01F15278AA150AF9 /* Pods-ProjectContainerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C31564FE6521F6E6BD09EA399065D74 /* Pods-ProjectContainerDemo-dummy.m */; };
-		8D6188F15D2740A938CDAAB7F3AF0F6B /* UtilL.h in Headers */ = {isa = PBXBuildFile; fileRef = C839B3572EA17C30ADC72510543CD7C0 /* UtilL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E3CBCBF012C1BE12860487A7207F9CF /* LOTAnimatedSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4D5B5346C9EBD2F4576818D933BB15 /* LOTAnimatedSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EAC8514E8BE800202503C7F1BB8E3A0 /* ModuleL.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C86075CA3056F5304FFFBB2FCC5FE9 /* ModuleL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92A614CF625972637FFBC8EA5546A484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9861F5BE3771613B71A3BFCAC04C7D9A /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 3742856D8341C14AD29ABDA720D86DE8 /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A288A9D4D1BA1F6F91AAA77EE408F9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9C408CD7C5DE42462C03A89530D8A08C /* ModuleInStandalone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 878E41C6CD8A450A6D92D865CC90D0D1 /* ModuleInStandalone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C837360F741FE590F4A8F5955AC9A31 /* UtilA.m in Sources */ = {isa = PBXBuildFile; fileRef = BA89CA33BC3448D61CF369FAC5427245 /* UtilA.m */; };
-		AF071CFD7F92CD1F56734C4ACB26501B /* ModuleInStandalone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39588ABC01AF9E6B4BE3A769304D5FE0 /* ModuleInStandalone-dummy.m */; };
-		BA9FF6CB222E5233A1CB2DCB211F8215 /* UtilD.h in Headers */ = {isa = PBXBuildFile; fileRef = A6440D1E1DFCDC5CF2F42CB6CD4D24A1 /* UtilD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE93BF7135B561D214B883F1AAC5616B /* ModuleL.h in Headers */ = {isa = PBXBuildFile; fileRef = E9115D42A75D4AF641B7CB2156866CA9 /* ModuleL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2915D367B08E4742C0CD29089FF8EDA /* ModuleD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0F6E1A066E884E67D1587258951EF2 /* ModuleD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7FB5BD8E24D49A9A341756C105B2EF0 /* ModuleA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4203836E84F695D9021D5AA199FAA165 /* ModuleA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C408CD7C5DE42462C03A89530D8A08C /* ModuleInStandalone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A421D843804EFDF8C29AD7938391F8F /* ModuleInStandalone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C837360F741FE590F4A8F5955AC9A31 /* UtilA.m in Sources */ = {isa = PBXBuildFile; fileRef = C39399B84702812C5B38C7B98F8AAB96 /* UtilA.m */; };
+		A3C8ED61CFC0C68BFB0CF6BD1F8BF32D /* extras.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD8A00FFE928CF0D1961D90052D5D0E /* extras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF071CFD7F92CD1F56734C4ACB26501B /* ModuleInStandalone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5BF6C603031DBC7B53190C38EC21D7 /* ModuleInStandalone-dummy.m */; };
+		BA9FF6CB222E5233A1CB2DCB211F8215 /* UtilD.h in Headers */ = {isa = PBXBuildFile; fileRef = 371F79769C5578EBE532CB7343620F70 /* UtilD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD9100EA5A61B22968319F7ED1808B28 /* LOTBlockCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = E45C8A59B7DE8573DA33AE532019F636 /* LOTBlockCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE091FC9E3064844880C57CD8CD84BD9 /* ModuleL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F13FD5B16DEEF4DA83DBC0EAB4F666 /* ModuleL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0D3CBC0648A2DF973AEBE764FF665DA /* demux.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDB82C2ABC0DEB8A204E9147286F00B /* demux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2915D367B08E4742C0CD29089FF8EDA /* ModuleD.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C84848E66E10A6E6B9728D24547C43 /* ModuleD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3754E8AA0D39DBE6A6A03CA1276F53D /* LOTCacheProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D7606C7055A74236D65FB118819E54 /* LOTCacheProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7FB5BD8E24D49A9A341756C105B2EF0 /* ModuleA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C6A03D4391F422E04D1C56E217540E /* ModuleA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAA505BBEF401FD304E86D46ACDDC520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		FFC1C9083189233696664A56B254C62B /* UtilA.h in Headers */ = {isa = PBXBuildFile; fileRef = 9133F973E25063F4BBB13086EDB284A6 /* UtilA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC76888575187EDA7E289E7F21C047C8 /* LOTComposition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD320F2522DECA6D95C75DA8F52BC19 /* LOTComposition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF398A378587EB2578C8DA26155FD864 /* LOTAnimatedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E15D820CEA70BD523F5D619A5B992EC /* LOTAnimatedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0AEEA9417FDCD804A2BB85508B9CE32 /* LOTValueCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = A81E12570E2F8D76F9C2890FA01EE52C /* LOTValueCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6AD26DF2097C0737761E808B06C46DC /* LOTAnimationView_Compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 055BF21F2952EA371813EDBFDAF559D8 /* LOTAnimationView_Compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF6A761947D29264F0779B4119DC65B6 /* mux.h in Headers */ = {isa = PBXBuildFile; fileRef = A438B3848524AB472BC9DCA07D9264C1 /* mux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFC1C9083189233696664A56B254C62B /* UtilA.h in Headers */ = {isa = PBXBuildFile; fileRef = 7239D9B465801B26A2EE6809ED63763F /* UtilA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,93 +255,118 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000130C46F6DCF04E314234C029136D9 /* UtilC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilC.h; sourceTree = "<group>"; };
+		03B2BF7EE4E4CB3982295EEFB726ED8B /* format_constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = format_constants.h; sourceTree = "<group>"; };
 		042ABBE13A74C8A3A660A350D99191D3 /* Pods-ProjectContainerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectContainerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		05D9493F9D85D5E5991B296896CA464A /* ModuleL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleL-umbrella.h"; sourceTree = "<group>"; };
-		0BFD156376B5AF2B69FFBDA3CED61DB9 /* ModuleD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleD-umbrella.h"; sourceTree = "<group>"; };
-		0C05B70B6FF69090FD988E307660D4F7 /* ModuleA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleA.xcconfig; sourceTree = "<group>"; };
-		11235767B54CEAA3FFA986ED293317C5 /* ModuleB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ModuleB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		055BF21F2952EA371813EDBFDAF559D8 /* LOTAnimationView_Compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTAnimationView_Compat.h; sourceTree = "<group>"; };
+		0574362BCAB7BAE7C5661BCB58EFEDF4 /* libLottie.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLottie.a; path = ModuleL/lib/Lottie/libLottie.a; sourceTree = "<group>"; };
+		057C9B14FD93E67862E24E103C767E85 /* ModuleC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleC.modulemap; sourceTree = "<group>"; };
+		0C43C0E456B6B6837D2DC811B96D4C58 /* ModuleD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleD-prefix.pch"; sourceTree = "<group>"; };
+		0DD320F2522DECA6D95C75DA8F52BC19 /* LOTComposition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTComposition.h; sourceTree = "<group>"; };
+		0DD8A00FFE928CF0D1961D90052D5D0E /* extras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = extras.h; sourceTree = "<group>"; };
+		10EDECF5A3BE50610BE57811C915B8FD /* StandaloneUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StandaloneUtil.h; path = StandaloneProject/src/StandaloneUtil.h; sourceTree = "<group>"; };
 		11DE3A7B75C5BB46BA239A098D7E160F /* Pods-StandaloneProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StandaloneProject.release.xcconfig"; sourceTree = "<group>"; };
-		16C97EA556AE6709AB370EDB2E57027E /* ModuleC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModuleC.framework; path = ModuleC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17368D941F39461D3D03EF366E4DEF69 /* ModuleB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleB-dummy.m"; sourceTree = "<group>"; };
-		1953BB6AD65E68742EA5080708F30A20 /* UtilB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilB.h; sourceTree = "<group>"; };
-		19F63080DDED5C610308F6ADA4DB3F79 /* ModuleD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleD.modulemap; sourceTree = "<group>"; };
-		1AEA740AC52937DA3FD96129084B8F45 /* ModuleL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleL.m; path = ModuleL/ModuleL.m; sourceTree = "<group>"; };
-		2475A42B552220D58F910A50A36BD6DA /* ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModuleA.framework; path = ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		258D2B610908BE11AD832259781B4BC7 /* UtilL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UtilL.m; path = ModuleL/UtilL.m; sourceTree = "<group>"; };
+		16C97EA556AE6709AB370EDB2E57027E /* ModuleC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		185AA98A6A407DA6C16FD50596ED91E8 /* ModuleA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleA.modulemap; sourceTree = "<group>"; };
+		192EFDE3F166B3A47BA75530826418F7 /* ModuleB.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ModuleB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1A421D843804EFDF8C29AD7938391F8F /* ModuleInStandalone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleInStandalone-umbrella.h"; sourceTree = "<group>"; };
+		1A894169CCBFDFA4A8859A968124FA06 /* UtilB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UtilB.m; sourceTree = "<group>"; };
+		1E15D820CEA70BD523F5D619A5B992EC /* LOTAnimatedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTAnimatedControl.h; sourceTree = "<group>"; };
+		20ECCB0F5B8F4C206F1C5BB94FE1BEFB /* ModuleInStandalone.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ModuleInStandalone.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2475A42B552220D58F910A50A36BD6DA /* ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		263ECF192001AD809E0E951316B9BD06 /* Pods-StandaloneProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StandaloneProject-frameworks.sh"; sourceTree = "<group>"; };
-		268F2A5C10952832BAA5F276C0097D8C /* ModuleB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleB-umbrella.h"; sourceTree = "<group>"; };
 		26C31FD67020A3C881690FF440E02C85 /* Pods-StandaloneProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StandaloneProject.debug.xcconfig"; sourceTree = "<group>"; };
 		2904C3F87B3CEB7CE2B3167B06B18C88 /* Pods-StandaloneProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StandaloneProject-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2FFD5C37626F7C29213E4ED5A1BFD338 /* ModuleD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleD-dummy.m"; sourceTree = "<group>"; };
-		30022339A2992FFA8B6842EC6F97CD14 /* ResourceBundle-resources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-resources-Info.plist"; sourceTree = "<group>"; };
+		2DE8A5F076F2EA811BBFCA79277A63F9 /* ModuleA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleA-dummy.m"; sourceTree = "<group>"; };
+		2F5FA3E09894CADC48C9ED2AE26A09C5 /* UtilC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UtilC.m; sourceTree = "<group>"; };
+		2FE317A8134949894D0A06A848406279 /* ModuleA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleA.h; path = ModuleA/ModuleA.h; sourceTree = "<group>"; };
 		300E008255A711478128490EE2CECC66 /* Pods-ProjectContainerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProjectContainerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		3092ADE0E362B818E95795D56BC4611F /* ModuleA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleA.h; path = ModuleA/ModuleA.h; sourceTree = "<group>"; };
-		32C29040E08A6B1E7D0B295AFAED8B84 /* ModuleB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleB.modulemap; sourceTree = "<group>"; };
+		31D7606C7055A74236D65FB118819E54 /* LOTCacheProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTCacheProvider.h; sourceTree = "<group>"; };
 		35BEFE1CA6C8B956005D2B47F2BE060E /* Pods-StandaloneProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StandaloneProject.modulemap"; sourceTree = "<group>"; };
+		371F79769C5578EBE532CB7343620F70 /* UtilD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilD.h; sourceTree = "<group>"; };
+		3742856D8341C14AD29ABDA720D86DE8 /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
 		37BD5455F3B8A9B8DA232CE2D0983BC9 /* Pods-ProjectContainerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProjectContainerDemo.modulemap"; sourceTree = "<group>"; };
-		38EB0B0DEBE5332F202293456AEF5EF9 /* ModuleL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleL.modulemap; sourceTree = "<group>"; };
-		39588ABC01AF9E6B4BE3A769304D5FE0 /* ModuleInStandalone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleInStandalone-dummy.m"; sourceTree = "<group>"; };
-		3DC363D7811361C765D6E34206AC4305 /* ModuleC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleC.xcconfig; sourceTree = "<group>"; };
-		4203836E84F695D9021D5AA199FAA165 /* ModuleA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleA-umbrella.h"; sourceTree = "<group>"; };
-		433246E322FEE13B3B3281898C7800D9 /* StandaloneUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StandaloneUtil.h; path = StandaloneProject/src/StandaloneUtil.h; sourceTree = "<group>"; };
+		382861669F8622FA2FBC1C022AA693C3 /* ModuleB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleB-prefix.pch"; sourceTree = "<group>"; };
+		3E967CABBEE980102C1491EFDACE2AD8 /* ModuleL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleL.xcconfig; sourceTree = "<group>"; };
+		3FCA152B373579C03007FF53B945F979 /* ModuleB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleB-umbrella.h"; sourceTree = "<group>"; };
+		45363371B84F4A8D0D2535AD33A5248D /* LOTAnimationTransitionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTAnimationTransitionController.h; sourceTree = "<group>"; };
 		477DE12DF64359D097CA0EF86088AF78 /* Pods-ProjectContainerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProjectContainerDemo-umbrella.h"; sourceTree = "<group>"; };
 		4C31564FE6521F6E6BD09EA399065D74 /* Pods-ProjectContainerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProjectContainerDemo-dummy.m"; sourceTree = "<group>"; };
-		4D2C27EE71D81BA29FFDC11F8E9E6E0D /* ModuleA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleA-prefix.pch"; sourceTree = "<group>"; };
-		4D88F505002355EF5DAB5C440C755B5E /* ModuleL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModuleL.framework; path = ModuleL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F5C4D367083E1D148A06678BC2454B9 /* ModuleInStandalone.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleInStandalone.xcconfig; sourceTree = "<group>"; };
-		5627EDE6EF5B96CF007221987545212D /* Pods_StandaloneProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StandaloneProject.framework; path = "Pods-StandaloneProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D88F505002355EF5DAB5C440C755B5E /* ModuleL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		548131D5399622F38EE621A0A0AFD8E9 /* moduleChartNew.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = moduleChartNew.png; path = "StandaloneProject/support files/moduleChartNew.png"; sourceTree = "<group>"; };
+		5627EDE6EF5B96CF007221987545212D /* Pods_StandaloneProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StandaloneProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A5C51DFCB80886533C57D774BD8B40 /* ModuleB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleB-dummy.m"; sourceTree = "<group>"; };
+		58C84848E66E10A6E6B9728D24547C43 /* ModuleD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleD.h; path = ModuleD/ModuleD.h; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5C0F6E1A066E884E67D1587258951EF2 /* ModuleD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleD.h; path = ModuleD/ModuleD.h; sourceTree = "<group>"; };
-		61A3E66A2DFCD876F3AB45D0504FFD31 /* StandaloneUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StandaloneUtil.m; path = StandaloneProject/src/StandaloneUtil.m; sourceTree = "<group>"; };
-		637CB9DA6F2D93E81BDD3D947B5B5BEA /* UtilC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UtilC.m; sourceTree = "<group>"; };
-		666AA7181F4AB3F971B0936581CE904E /* ModuleL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleL-dummy.m"; sourceTree = "<group>"; };
-		67E6ABDD2D014987D13469CC15A36267 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ModuleA.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		685AB487D8F57D6B9E6F4CC96DA1667D /* Pods-ProjectContainerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectContainerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		69E60A4E6EC246ADDBC93983646ED849 /* Pods-StandaloneProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StandaloneProject-umbrella.h"; sourceTree = "<group>"; };
-		6E5ECC3BC315774E06699FD0BA94A4B7 /* ModuleL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleL.xcconfig; sourceTree = "<group>"; };
+		6B004D7E01DF2AD8108B2724947EEDD9 /* ModuleC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleC-prefix.pch"; sourceTree = "<group>"; };
+		6C584C423CA8C7AEA26BA5FB4BB4BEE2 /* ModuleL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleL-prefix.pch"; sourceTree = "<group>"; };
+		7127777DF61BFBD55FB87FC5507EEF9C /* ModuleInStandalone.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleInStandalone.xcconfig; sourceTree = "<group>"; };
 		7146A01C90E411D8467BD71F121425E5 /* Pods-StandaloneProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StandaloneProject-acknowledgements.plist"; sourceTree = "<group>"; };
-		75E08918C6DA16357CB10D2BC397D749 /* ModuleB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleB.xcconfig; sourceTree = "<group>"; };
+		71E90D30380B96014BAAFB89F717092A /* ModuleC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleC.h; path = ModuleC/ModuleC.h; sourceTree = "<group>"; };
+		7239D9B465801B26A2EE6809ED63763F /* UtilA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilA.h; sourceTree = "<group>"; };
+		7384DCF488A325E4FB4137B86131E91D /* UtilL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UtilL.h; path = ModuleL/UtilL.h; sourceTree = "<group>"; };
 		782798764F520BCE871722096D8DF929 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DC2C525E920DF703F1D08F8100618F6 /* ModuleD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleD-prefix.pch"; sourceTree = "<group>"; };
-		7E15301CCC290B39154359BD1D17AF4A /* UtilB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UtilB.m; sourceTree = "<group>"; };
-		7E466F63681BD995B5736016F3B40DFA /* UtilD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UtilD.m; sourceTree = "<group>"; };
+		79594ECE0D5627B8523B1D9867C420EE /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = ModuleL/lib/WebP.framework; sourceTree = "<group>"; };
+		7A126620D11DE9D5878BFE020EBBD611 /* ModuleB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleB.modulemap; sourceTree = "<group>"; };
+		7D66F3EB0FC6A68540F82C9C8029854A /* UtilL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UtilL.m; path = ModuleL/UtilL.m; sourceTree = "<group>"; };
 		7E5777FEB859EAEBD83FDC21A7DCDE53 /* Pods-StandaloneProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StandaloneProject-resources.sh"; sourceTree = "<group>"; };
-		85D66FE9729895CDC0E113485591B3FE /* ModuleB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleB-prefix.pch"; sourceTree = "<group>"; };
-		86A081CBC41F85E65A4421A3EBEDB13E /* ModuleL.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ModuleL.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		878E41C6CD8A450A6D92D865CC90D0D1 /* ModuleInStandalone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleInStandalone-umbrella.h"; sourceTree = "<group>"; };
-		880F373B1F3C516BE640A17B4F46F682 /* Pods_ProjectContainerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProjectContainerDemo.framework; path = "Pods-ProjectContainerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DEA91A0ECC1986212B638CDF0C6FA5 /* ModuleB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleB.xcconfig; sourceTree = "<group>"; };
+		8556E190328C50CB5737E9E0A52AFCD3 /* ModuleA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleA-prefix.pch"; sourceTree = "<group>"; };
+		859E854FF9C6EB786195A259B4B01325 /* ModuleL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleL-dummy.m"; sourceTree = "<group>"; };
+		880F373B1F3C516BE640A17B4F46F682 /* Pods_ProjectContainerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectContainerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88597D51CC1E321E3A1C94C0FECDB344 /* Pods-StandaloneProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StandaloneProject-dummy.m"; sourceTree = "<group>"; };
 		8AEC6E0F080506A32C1F98DE86B8596F /* Pods-ProjectContainerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectContainerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		91185407DEA5E8164FB19BA83AA935E1 /* ModuleB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModuleB.framework; path = ModuleB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9133F973E25063F4BBB13086EDB284A6 /* UtilA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilA.h; sourceTree = "<group>"; };
-		9312A435ED9740CF572CE619EF19309A /* ModuleC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleC.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		992D6F04A13ABBA865968CB38AC50E78 /* ModuleInStandalone.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ModuleInStandalone.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A383C4FFD61369412440BD22C170ADB /* ModuleA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleA-dummy.m"; sourceTree = "<group>"; };
-		A6440D1E1DFCDC5CF2F42CB6CD4D24A1 /* UtilD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilD.h; sourceTree = "<group>"; };
-		A80C54577093B420D079B58CE7584F31 /* ModuleA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleA.modulemap; sourceTree = "<group>"; };
-		AD4D28C58C48EBEEF6C28D40E7C65886 /* ModuleInStandalone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleInStandalone.modulemap; sourceTree = "<group>"; };
+		91185407DEA5E8164FB19BA83AA935E1 /* ModuleB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		921F5A000B902C774563B181FB647BCC /* ModuleC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleC.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A03E4910B2CC8F042EE3E8EF2825C83B /* decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
+		A438B3848524AB472BC9DCA07D9264C1 /* mux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mux.h; sourceTree = "<group>"; };
+		A52FA1E477CF7C9BC0EFC750459C8D5A /* LOTAnimationCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTAnimationCache.h; sourceTree = "<group>"; };
+		A5C4D514FE53BC748B87A8ADE31137E6 /* encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = encode.h; sourceTree = "<group>"; };
+		A676D350691B0C142569722C481696CD /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		A81E12570E2F8D76F9C2890FA01EE52C /* LOTValueCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTValueCallback.h; sourceTree = "<group>"; };
+		A860A9B4CCA292E001F1CF973ED32978 /* mux_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mux_types.h; sourceTree = "<group>"; };
+		A9E009F6F04E93EFB0D94D7BB639E441 /* UtilC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilC.h; sourceTree = "<group>"; };
+		AAFCCE2873405D7DFAA749717F847CAE /* ModuleD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ModuleD.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3E9825944A40086D4AA2356F90A8B42 /* ModuleD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleD-umbrella.h"; sourceTree = "<group>"; };
+		B5F3BA0F71DF77511036F6D9D6869708 /* ModuleC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleC-umbrella.h"; sourceTree = "<group>"; };
 		B9B4AAEF841183FFB793FE0D15630730 /* Pods-ProjectContainerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProjectContainerDemo-resources.sh"; sourceTree = "<group>"; };
-		BA89CA33BC3448D61CF369FAC5427245 /* UtilA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UtilA.m; sourceTree = "<group>"; };
-		BFFF48DA978621F2414D92BB84752486 /* ModuleC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleC-dummy.m"; sourceTree = "<group>"; };
-		C1DA1050E6912E3EFD5AED9742E13B5E /* ModuleInStandalone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModuleInStandalone.framework; path = ModuleInStandalone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C79679EE3DB5BC58B66EC0E7B0E2BC48 /* ModuleInStandalone-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleInStandalone-prefix.pch"; sourceTree = "<group>"; };
-		C839B3572EA17C30ADC72510543CD7C0 /* UtilL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UtilL.h; path = ModuleL/UtilL.h; sourceTree = "<group>"; };
-		CA5CD8535E658121E3EC99D37FD76FE2 /* ModuleD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleD.xcconfig; sourceTree = "<group>"; };
-		CB47BD852028086FA71AF5CC18C73B4B /* ModuleC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleC-prefix.pch"; sourceTree = "<group>"; };
-		D48C520DF723149EEB81C0492282AE6D /* ModuleB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleB.h; path = ModuleB/ModuleB.h; sourceTree = "<group>"; };
-		DC7DD9C695D0DE6E6C47BC57C421F268 /* ModuleL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleL-prefix.pch"; sourceTree = "<group>"; };
-		E3ECF6FCF38CCE6968AAD4140687A69E /* resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = resources.bundle; path = "ModuleInStandalone-resources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E591511098A75D9FEE8815963A6D8547 /* moduleChartNew.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = moduleChartNew.png; path = "StandaloneProject/support files/moduleChartNew.png"; sourceTree = "<group>"; };
-		E9115D42A75D4AF641B7CB2156866CA9 /* ModuleL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleL.h; path = ModuleL/ModuleL.h; sourceTree = "<group>"; };
-		ED5619E27A467183F4ABCAB3E99E2328 /* ModuleC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleC-umbrella.h"; sourceTree = "<group>"; };
-		EF143B1C626648198D57DBC546398568 /* ModuleC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleC.h; path = ModuleC/ModuleC.h; sourceTree = "<group>"; };
-		EF41692D25F78E53DFB6471F938E4F5D /* ModuleD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModuleD.framework; path = ModuleD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDB82C2ABC0DEB8A204E9147286F00B /* demux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = demux.h; sourceTree = "<group>"; };
+		BEB9DDBD2C08491FA1CAB784F50E0E77 /* UtilB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UtilB.h; sourceTree = "<group>"; };
+		C0B6FDEAC466F491C4235739897598CA /* StandaloneUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StandaloneUtil.m; path = StandaloneProject/src/StandaloneUtil.m; sourceTree = "<group>"; };
+		C1DA1050E6912E3EFD5AED9742E13B5E /* ModuleInStandalone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleInStandalone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38BFB7B1E3B274A7358E5527CA36267 /* Lottie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Lottie.h; sourceTree = "<group>"; };
+		C39399B84702812C5B38C7B98F8AAB96 /* UtilA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UtilA.m; sourceTree = "<group>"; };
+		C6A50511C57B142EAE84ADAF9AFE30FB /* ModuleL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleL.m; path = ModuleL/ModuleL.m; sourceTree = "<group>"; };
+		CAF7D00530E3048DE0254806C2111FEB /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ModuleA.podspec; sourceTree = "<group>"; };
+		CCB3B307E4224328687BAE443EE97907 /* ModuleD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleD.xcconfig; sourceTree = "<group>"; };
+		CFB79BE10979DA8C939A9A8BF2171CC1 /* ModuleB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleB.h; path = ModuleB/ModuleB.h; sourceTree = "<group>"; };
+		D00D752A1233FB02038EAEE6F9F655F9 /* ResourceBundle-resources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-resources-Info.plist"; sourceTree = "<group>"; };
+		D0F13FD5B16DEEF4DA83DBC0EAB4F666 /* ModuleL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleL-umbrella.h"; sourceTree = "<group>"; };
+		D12551BD08C0043C32C5639165DFAA95 /* LOTKeypath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTKeypath.h; sourceTree = "<group>"; };
+		D174F0B8BBF7ED8E03DDD9832514A440 /* ModuleC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ModuleC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D568BC667D98EC41C7F1020A231B4F9D /* ModuleInStandalone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleInStandalone.modulemap; sourceTree = "<group>"; };
+		DADAC2B2ED009462F40EFD08FBB2F06D /* ModuleD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleD-dummy.m"; sourceTree = "<group>"; };
+		DE0DEA88858D8F265A10FABAD193C59F /* ModuleL.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ModuleL.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E0C6A03D4391F422E04D1C56E217540E /* ModuleA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleA-umbrella.h"; sourceTree = "<group>"; };
+		E3ECF6FCF38CCE6968AAD4140687A69E /* resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45C8A59B7DE8573DA33AE532019F636 /* LOTBlockCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTBlockCallback.h; sourceTree = "<group>"; };
+		E58B4C302F24A509F9712B690721EF6D /* ModuleL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleL.modulemap; sourceTree = "<group>"; };
+		E67355A30197D4D41DC8212EBE6FF0BC /* ModuleA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleA.xcconfig; sourceTree = "<group>"; };
+		E7114DB5E4E4D700481DBDE8F837476A /* ModuleC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleC-dummy.m"; sourceTree = "<group>"; };
+		E7809EBE805E5F543C09C4CEF7DEB306 /* UtilD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UtilD.m; sourceTree = "<group>"; };
+		EF41692D25F78E53DFB6471F938E4F5D /* ModuleD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDFCEC2D37BD23BAD4E551F4C8E0217 /* LOTAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTAnimationView.h; sourceTree = "<group>"; };
 		F18BB4D1424E807600DABF6B6A7DEEB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F32584A89B9246AD068A23EAA5E7C88E /* ModuleC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ModuleC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F6E68D58477B30D0B5A3554522CCD337 /* ModuleD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ModuleD.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F6C86075CA3056F5304FFFBB2FCC5FE9 /* ModuleL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleL.h; path = ModuleL/ModuleL.h; sourceTree = "<group>"; };
+		F6F86C1BE152B419FA91174B53ABA95E /* LOTValueDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTValueDelegate.h; sourceTree = "<group>"; };
 		F78F0C1C1DDAA1D45C1B3675CBD23F9B /* Pods-ProjectContainerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProjectContainerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA1647761492237F5C23233A847B902A /* ModuleInStandalone-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleInStandalone-prefix.pch"; sourceTree = "<group>"; };
+		FA424C4C875D5EDA68D5CB877C6913B0 /* LOTInterpolatorCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTInterpolatorCallback.h; sourceTree = "<group>"; };
+		FB559FBC73EB5CD8A5E924216840E81D /* ModuleD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ModuleD.modulemap; sourceTree = "<group>"; };
+		FB5BF6C603031DBC7B53190C38EC21D7 /* ModuleInStandalone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleInStandalone-dummy.m"; sourceTree = "<group>"; };
+		FF4D5B5346C9EBD2F4576818D933BB15 /* LOTAnimatedSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LOTAnimatedSwitch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,24 +444,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AFF7201772F15F741A630503A0B2144 /* ModuleA */ = {
+		11022BA2F651A0871C3F34831BF52FD6 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				3092ADE0E362B818E95795D56BC4611F /* ModuleA.h */,
-				3C15F05EBB16CDC300EDD92ED39D007B /* Pod */,
-				AB7742C552EEC683439700D832DB3CA4 /* src */,
-				273DAC308B1C9CD269103A1F05E7B356 /* Support Files */,
+				A676D350691B0C142569722C481696CD /* config.h */,
+				A03E4910B2CC8F042EE3E8EF2825C83B /* decode.h */,
+				BDDB82C2ABC0DEB8A204E9147286F00B /* demux.h */,
+				A5C4D514FE53BC748B87A8ADE31137E6 /* encode.h */,
+				0DD8A00FFE928CF0D1961D90052D5D0E /* extras.h */,
+				03B2BF7EE4E4CB3982295EEFB726ED8B /* format_constants.h */,
+				A438B3848524AB472BC9DCA07D9264C1 /* mux.h */,
+				A860A9B4CCA292E001F1CF973ED32978 /* mux_types.h */,
+				3742856D8341C14AD29ABDA720D86DE8 /* types.h */,
 			);
-			name = ModuleA;
-			path = ../subProjects/ModuleA;
+			path = Headers;
 			sourceTree = "<group>";
 		};
-		129FF196247E53CE99AB9BAF9A32F114 /* Resources */ = {
+		1792D2221F0CD18844B852C0F0799684 /* WebP.framework */ = {
 			isa = PBXGroup;
 			children = (
-				E591511098A75D9FEE8815963A6D8547 /* moduleChartNew.png */,
+				11022BA2F651A0871C3F34831BF52FD6 /* Headers */,
 			);
-			name = Resources;
+			path = WebP.framework;
+			sourceTree = "<group>";
+		};
+		1AB48C44042B4352BB77A7D2F836188F /* ModuleL */ = {
+			isa = PBXGroup;
+			children = (
+				F6C86075CA3056F5304FFFBB2FCC5FE9 /* ModuleL.h */,
+				C6A50511C57B142EAE84ADAF9AFE30FB /* ModuleL.m */,
+				7384DCF488A325E4FB4137B86131E91D /* UtilL.h */,
+				7D66F3EB0FC6A68540F82C9C8029854A /* UtilL.m */,
+				7BE67AA329908FE15AB97B9D9CE76959 /* Frameworks */,
+				EBB776CE954771F0759536A5BE722670 /* lib */,
+				D2C9F0FCBD3990D91EFC57E181317DFC /* Pod */,
+				F5CB6F00C2658F2D0BCAE20CB932105D /* Support Files */,
+			);
+			name = ModuleL;
+			path = ../SubProjects/ModuleL;
 			sourceTree = "<group>";
 		};
 		26B38E8D0690842FC53B1C32643B0150 /* Pods-StandaloneProject */ = {
@@ -434,43 +502,29 @@
 			path = "Target Support Files/Pods-StandaloneProject";
 			sourceTree = "<group>";
 		};
-		273DAC308B1C9CD269103A1F05E7B356 /* Support Files */ = {
+		2993E7F8804DABCAF91DEC59CAFF33C1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A80C54577093B420D079B58CE7584F31 /* ModuleA.modulemap */,
-				0C05B70B6FF69090FD988E307660D4F7 /* ModuleA.xcconfig */,
-				9A383C4FFD61369412440BD22C170ADB /* ModuleA-dummy.m */,
-				4D2C27EE71D81BA29FFDC11F8E9E6E0D /* ModuleA-prefix.pch */,
-				4203836E84F695D9021D5AA199FAA165 /* ModuleA-umbrella.h */,
+				185AA98A6A407DA6C16FD50596ED91E8 /* ModuleA.modulemap */,
+				E67355A30197D4D41DC8212EBE6FF0BC /* ModuleA.xcconfig */,
+				2DE8A5F076F2EA811BBFCA79277A63F9 /* ModuleA-dummy.m */,
+				8556E190328C50CB5737E9E0A52AFCD3 /* ModuleA-prefix.pch */,
+				E0C6A03D4391F422E04D1C56E217540E /* ModuleA-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../../Pods/Target Support Files/ModuleA";
 			sourceTree = "<group>";
 		};
-		2819491EC6DD1BBDB191C85E3A0BE75E /* ModuleL */ = {
+		2CAA08F1EE5C1728EC3B347DA07957A0 /* ModuleC */ = {
 			isa = PBXGroup;
 			children = (
-				E9115D42A75D4AF641B7CB2156866CA9 /* ModuleL.h */,
-				1AEA740AC52937DA3FD96129084B8F45 /* ModuleL.m */,
-				C839B3572EA17C30ADC72510543CD7C0 /* UtilL.h */,
-				258D2B610908BE11AD832259781B4BC7 /* UtilL.m */,
-				F633E9ECF4616D7F61F1D0AEF0BD149C /* Pod */,
-				7AAB29F05D76D2085DA0638104C306FB /* Support Files */,
+				71E90D30380B96014BAAFB89F717092A /* ModuleC.h */,
+				954BA577EBCB1B02313CFD4DEE41A444 /* Pod */,
+				82855F803A80DD29A654EF6DD0047126 /* src */,
+				C9AE1948AAC15C96A08BD1D219C84A53 /* Support Files */,
 			);
-			name = ModuleL;
-			path = ../subProjects/ModuleL;
-			sourceTree = "<group>";
-		};
-		2FAA8A4945BB7EA1C3887DAEB9BAD054 /* ModuleD */ = {
-			isa = PBXGroup;
-			children = (
-				5C0F6E1A066E884E67D1587258951EF2 /* ModuleD.h */,
-				5D0F7CAF0ED38DBA527FFC9E18270861 /* Pod */,
-				E0995D9FF64CB7B00AF1186A34989BBA /* src */,
-				7DB5FA8771F90DA83CCECE1B0F07DBD4 /* Support Files */,
-			);
-			name = ModuleD;
-			path = ../subProjects/ModuleD;
+			name = ModuleC;
+			path = ../SubProjects/ModuleC;
 			sourceTree = "<group>";
 		};
 		30537800F12DE86EEB0F05E8FB37B324 /* Targets Support Files */ = {
@@ -482,62 +536,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3C15F05EBB16CDC300EDD92ED39D007B /* Pod */ = {
+		3E758D94351EFDEA750129BD62FC24EF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				67E6ABDD2D014987D13469CC15A36267 /* ModuleA.podspec */,
+				20ECCB0F5B8F4C206F1C5BB94FE1BEFB /* ModuleInStandalone.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		4681903F4E5CB6C63AE40153393E38A6 /* src */ = {
+		4C464784A27F5EFF4FC307CA592961A7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				000130C46F6DCF04E314234C029136D9 /* UtilC.h */,
-				637CB9DA6F2D93E81BDD3D947B5B5BEA /* UtilC.m */,
-			);
-			name = src;
-			path = ModuleC/src;
-			sourceTree = "<group>";
-		};
-		4E4AEC3614A3D69E75C0B252F16AFDBB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9312A435ED9740CF572CE619EF19309A /* ModuleC.modulemap */,
-				3DC363D7811361C765D6E34206AC4305 /* ModuleC.xcconfig */,
-				BFFF48DA978621F2414D92BB84752486 /* ModuleC-dummy.m */,
-				CB47BD852028086FA71AF5CC18C73B4B /* ModuleC-prefix.pch */,
-				ED5619E27A467183F4ABCAB3E99E2328 /* ModuleC-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/ModuleC";
-			sourceTree = "<group>";
-		};
-		4E8427124AE8A5A8C3D6418AE2B22AE1 /* ModuleInStandalone */ = {
-			isa = PBXGroup;
-			children = (
-				433246E322FEE13B3B3281898C7800D9 /* StandaloneUtil.h */,
-				61A3E66A2DFCD876F3AB45D0504FFD31 /* StandaloneUtil.m */,
-				F990056D5CF5AB5CBFC7661F0B67D79F /* Pod */,
-				129FF196247E53CE99AB9BAF9A32F114 /* Resources */,
-				DFD3D656BD534129749BFC06ABCC443D /* Support Files */,
-			);
-			name = ModuleInStandalone;
-			path = ../StandaloneProjects/StandaloneProject;
-			sourceTree = "<group>";
-		};
-		5D0F7CAF0ED38DBA527FFC9E18270861 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F6E68D58477B30D0B5A3554522CCD337 /* ModuleD.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5DEA9DB0267E6CCAD5F8D9730C042E66 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F32584A89B9246AD068A23EAA5E7C88E /* ModuleC.podspec */,
+				192EFDE3F166B3A47BA75530826418F7 /* ModuleB.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -550,81 +560,151 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7AAB29F05D76D2085DA0638104C306FB /* Support Files */ = {
+		640EC468A498F2E07F1DCA6CFEE3F661 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				38EB0B0DEBE5332F202293456AEF5EF9 /* ModuleL.modulemap */,
-				6E5ECC3BC315774E06699FD0BA94A4B7 /* ModuleL.xcconfig */,
-				666AA7181F4AB3F971B0936581CE904E /* ModuleL-dummy.m */,
-				DC7DD9C695D0DE6E6C47BC57C421F268 /* ModuleL-prefix.pch */,
-				05D9493F9D85D5E5991B296896CA464A /* ModuleL-umbrella.h */,
+				371F79769C5578EBE532CB7343620F70 /* UtilD.h */,
+				E7809EBE805E5F543C09C4CEF7DEB306 /* UtilD.m */,
+			);
+			name = src;
+			path = ModuleD/src;
+			sourceTree = "<group>";
+		};
+		648CDA424702EA8ED816803E8C16AB87 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F03E6FFAA5747C9894EAEE50E017C273 /* Lottie */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		6AEAF036C8E504136EC12D6290114B29 /* ModuleD */ = {
+			isa = PBXGroup;
+			children = (
+				58C84848E66E10A6E6B9728D24547C43 /* ModuleD.h */,
+				8F6FA7189D48B6D705F1AC5A9468C35B /* Pod */,
+				640EC468A498F2E07F1DCA6CFEE3F661 /* src */,
+				9212D46E86FB9BE2FD23008EF310C8F9 /* Support Files */,
+			);
+			name = ModuleD;
+			path = ../SubProjects/ModuleD;
+			sourceTree = "<group>";
+		};
+		7194E441D80E73591E13793F067046EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D568BC667D98EC41C7F1020A231B4F9D /* ModuleInStandalone.modulemap */,
+				7127777DF61BFBD55FB87FC5507EEF9C /* ModuleInStandalone.xcconfig */,
+				FB5BF6C603031DBC7B53190C38EC21D7 /* ModuleInStandalone-dummy.m */,
+				FA1647761492237F5C23233A847B902A /* ModuleInStandalone-prefix.pch */,
+				1A421D843804EFDF8C29AD7938391F8F /* ModuleInStandalone-umbrella.h */,
+				D00D752A1233FB02038EAEE6F9F655F9 /* ResourceBundle-resources-Info.plist */,
 			);
 			name = "Support Files";
-			path = "../../Pods/Target Support Files/ModuleL";
+			path = "../../Pods/Target Support Files/ModuleInStandalone";
+			sourceTree = "<group>";
+		};
+		74A0DCAEDADA15FAC2E73801AA901A8C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7239D9B465801B26A2EE6809ED63763F /* UtilA.h */,
+				C39399B84702812C5B38C7B98F8AAB96 /* UtilA.m */,
+			);
+			name = src;
+			path = ModuleA/src;
+			sourceTree = "<group>";
+		};
+		7BE67AA329908FE15AB97B9D9CE76959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0574362BCAB7BAE7C5661BCB58EFEDF4 /* libLottie.a */,
+				79594ECE0D5627B8523B1D9867C420EE /* WebP.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C7725C022DEC1519E54983FBA11D8A28 /* Development Pods */,
+				CBA8A2519694E98921A443C52F856C24 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				BB10D3116DEE7C35404BEED9905DCEFC /* Products */,
 				30537800F12DE86EEB0F05E8FB37B324 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7DB5FA8771F90DA83CCECE1B0F07DBD4 /* Support Files */ = {
+		7DE8F598ABA2D17ED140704B456C7551 /* ModuleInStandalone */ = {
 			isa = PBXGroup;
 			children = (
-				19F63080DDED5C610308F6ADA4DB3F79 /* ModuleD.modulemap */,
-				CA5CD8535E658121E3EC99D37FD76FE2 /* ModuleD.xcconfig */,
-				2FFD5C37626F7C29213E4ED5A1BFD338 /* ModuleD-dummy.m */,
-				7DC2C525E920DF703F1D08F8100618F6 /* ModuleD-prefix.pch */,
-				0BFD156376B5AF2B69FFBDA3CED61DB9 /* ModuleD-umbrella.h */,
+				10EDECF5A3BE50610BE57811C915B8FD /* StandaloneUtil.h */,
+				C0B6FDEAC466F491C4235739897598CA /* StandaloneUtil.m */,
+				3E758D94351EFDEA750129BD62FC24EF /* Pod */,
+				A42D6BDD3B9577BC70655F03F0797797 /* Resources */,
+				7194E441D80E73591E13793F067046EB /* Support Files */,
+			);
+			name = ModuleInStandalone;
+			path = ../StandaloneProjects/StandaloneProject;
+			sourceTree = "<group>";
+		};
+		82855F803A80DD29A654EF6DD0047126 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A9E009F6F04E93EFB0D94D7BB639E441 /* UtilC.h */,
+				2F5FA3E09894CADC48C9ED2AE26A09C5 /* UtilC.m */,
+			);
+			name = src;
+			path = ModuleC/src;
+			sourceTree = "<group>";
+		};
+		8F6FA7189D48B6D705F1AC5A9468C35B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCCE2873405D7DFAA749717F847CAE /* ModuleD.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9212D46E86FB9BE2FD23008EF310C8F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB559FBC73EB5CD8A5E924216840E81D /* ModuleD.modulemap */,
+				CCB3B307E4224328687BAE443EE97907 /* ModuleD.xcconfig */,
+				DADAC2B2ED009462F40EFD08FBB2F06D /* ModuleD-dummy.m */,
+				0C43C0E456B6B6837D2DC811B96D4C58 /* ModuleD-prefix.pch */,
+				B3E9825944A40086D4AA2356F90A8B42 /* ModuleD-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../../Pods/Target Support Files/ModuleD";
 			sourceTree = "<group>";
 		};
-		A23C087923205C21FEDAE6ACCAEB4A15 /* Pod */ = {
+		954BA577EBCB1B02313CFD4DEE41A444 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				11235767B54CEAA3FFA986ED293317C5 /* ModuleB.podspec */,
+				D174F0B8BBF7ED8E03DDD9832514A440 /* ModuleC.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		A3FDA897A246D10A45DCF6B7CDFE9EE6 /* ModuleB */ = {
+		A42D6BDD3B9577BC70655F03F0797797 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D48C520DF723149EEB81C0492282AE6D /* ModuleB.h */,
-				A23C087923205C21FEDAE6ACCAEB4A15 /* Pod */,
-				AA660E7526E3F1817CFDE1E384EF229E /* src */,
-				BAABF2068499C0643CDDBB8E4D0C0C43 /* Support Files */,
+				548131D5399622F38EE621A0A0AFD8E9 /* moduleChartNew.png */,
 			);
-			name = ModuleB;
-			path = ../subProjects/ModuleB;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		AA660E7526E3F1817CFDE1E384EF229E /* src */ = {
+		AE2091170444ED2DFB0FF7F13E77DEA5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1953BB6AD65E68742EA5080708F30A20 /* UtilB.h */,
-				7E15301CCC290B39154359BD1D17AF4A /* UtilB.m */,
+				7A126620D11DE9D5878BFE020EBBD611 /* ModuleB.modulemap */,
+				81DEA91A0ECC1986212B638CDF0C6FA5 /* ModuleB.xcconfig */,
+				58A5C51DFCB80886533C57D774BD8B40 /* ModuleB-dummy.m */,
+				382861669F8622FA2FBC1C022AA693C3 /* ModuleB-prefix.pch */,
+				3FCA152B373579C03007FF53B945F979 /* ModuleB-umbrella.h */,
 			);
-			name = src;
-			path = ModuleB/src;
-			sourceTree = "<group>";
-		};
-		AB7742C552EEC683439700D832DB3CA4 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				9133F973E25063F4BBB13086EDB284A6 /* UtilA.h */,
-				BA89CA33BC3448D61CF369FAC5427245 /* UtilA.m */,
-			);
-			name = src;
-			path = ModuleA/src;
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ModuleB";
 			sourceTree = "<group>";
 		};
 		B51B48E42E205EC0D28E6DBE2906C6D1 /* Pods-ProjectContainerDemo */ = {
@@ -645,17 +725,12 @@
 			path = "Target Support Files/Pods-ProjectContainerDemo";
 			sourceTree = "<group>";
 		};
-		BAABF2068499C0643CDDBB8E4D0C0C43 /* Support Files */ = {
+		B51BFA820C46E532D31E3B4FEBAF80B8 /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				32C29040E08A6B1E7D0B295AFAED8B84 /* ModuleB.modulemap */,
-				75E08918C6DA16357CB10D2BC397D749 /* ModuleB.xcconfig */,
-				17368D941F39461D3D03EF366E4DEF69 /* ModuleB-dummy.m */,
-				85D66FE9729895CDC0E113485591B3FE /* ModuleB-prefix.pch */,
-				268F2A5C10952832BAA5F276C0097D8C /* ModuleB-umbrella.h */,
+				648CDA424702EA8ED816803E8C16AB87 /* include */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/ModuleB";
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 		BB10D3116DEE7C35404BEED9905DCEFC /* Products */ = {
@@ -682,69 +757,124 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C7725C022DEC1519E54983FBA11D8A28 /* Development Pods */ = {
+		C3E79775D6EF3E3952F198FD111E057E /* src */ = {
 			isa = PBXGroup;
 			children = (
-				0AFF7201772F15F741A630503A0B2144 /* ModuleA */,
-				A3FDA897A246D10A45DCF6B7CDFE9EE6 /* ModuleB */,
-				DF4B96EE971B658B039BF9B260166C4C /* ModuleC */,
-				2FAA8A4945BB7EA1C3887DAEB9BAD054 /* ModuleD */,
-				4E8427124AE8A5A8C3D6418AE2B22AE1 /* ModuleInStandalone */,
-				2819491EC6DD1BBDB191C85E3A0BE75E /* ModuleL */,
+				BEB9DDBD2C08491FA1CAB784F50E0E77 /* UtilB.h */,
+				1A894169CCBFDFA4A8859A968124FA06 /* UtilB.m */,
+			);
+			name = src;
+			path = ModuleB/src;
+			sourceTree = "<group>";
+		};
+		C5BCF3F3CAA64A965052C6A4EB0CECAE /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				2FE317A8134949894D0A06A848406279 /* ModuleA.h */,
+				FD3C59296528C2C32B78DF222E803D97 /* Pod */,
+				74A0DCAEDADA15FAC2E73801AA901A8C /* src */,
+				2993E7F8804DABCAF91DEC59CAFF33C1 /* Support Files */,
+			);
+			name = ModuleA;
+			path = ../SubProjects/ModuleA;
+			sourceTree = "<group>";
+		};
+		C9AE1948AAC15C96A08BD1D219C84A53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				057C9B14FD93E67862E24E103C767E85 /* ModuleC.modulemap */,
+				921F5A000B902C774563B181FB647BCC /* ModuleC.xcconfig */,
+				E7114DB5E4E4D700481DBDE8F837476A /* ModuleC-dummy.m */,
+				6B004D7E01DF2AD8108B2724947EEDD9 /* ModuleC-prefix.pch */,
+				B5F3BA0F71DF77511036F6D9D6869708 /* ModuleC-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/ModuleC";
+			sourceTree = "<group>";
+		};
+		CBA8A2519694E98921A443C52F856C24 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5BCF3F3CAA64A965052C6A4EB0CECAE /* ModuleA */,
+				FEFA2A599F2A28AB93DF1AD45D219172 /* ModuleB */,
+				2CAA08F1EE5C1728EC3B347DA07957A0 /* ModuleC */,
+				6AEAF036C8E504136EC12D6290114B29 /* ModuleD */,
+				7DE8F598ABA2D17ED140704B456C7551 /* ModuleInStandalone */,
+				1AB48C44042B4352BB77A7D2F836188F /* ModuleL */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		DF4B96EE971B658B039BF9B260166C4C /* ModuleC */ = {
+		D2C9F0FCBD3990D91EFC57E181317DFC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EF143B1C626648198D57DBC546398568 /* ModuleC.h */,
-				5DEA9DB0267E6CCAD5F8D9730C042E66 /* Pod */,
-				4681903F4E5CB6C63AE40153393E38A6 /* src */,
-				4E4AEC3614A3D69E75C0B252F16AFDBB /* Support Files */,
+				DE0DEA88858D8F265A10FABAD193C59F /* ModuleL.podspec */,
 			);
-			name = ModuleC;
-			path = ../subProjects/ModuleC;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		DFD3D656BD534129749BFC06ABCC443D /* Support Files */ = {
+		EBB776CE954771F0759536A5BE722670 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				AD4D28C58C48EBEEF6C28D40E7C65886 /* ModuleInStandalone.modulemap */,
-				4F5C4D367083E1D148A06678BC2454B9 /* ModuleInStandalone.xcconfig */,
-				39588ABC01AF9E6B4BE3A769304D5FE0 /* ModuleInStandalone-dummy.m */,
-				C79679EE3DB5BC58B66EC0E7B0E2BC48 /* ModuleInStandalone-prefix.pch */,
-				878E41C6CD8A450A6D92D865CC90D0D1 /* ModuleInStandalone-umbrella.h */,
-				30022339A2992FFA8B6842EC6F97CD14 /* ResourceBundle-resources-Info.plist */,
+				B51BFA820C46E532D31E3B4FEBAF80B8 /* Lottie */,
+				1792D2221F0CD18844B852C0F0799684 /* WebP.framework */,
+			);
+			name = lib;
+			path = ModuleL/lib;
+			sourceTree = "<group>";
+		};
+		F03E6FFAA5747C9894EAEE50E017C273 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				1E15D820CEA70BD523F5D619A5B992EC /* LOTAnimatedControl.h */,
+				FF4D5B5346C9EBD2F4576818D933BB15 /* LOTAnimatedSwitch.h */,
+				A52FA1E477CF7C9BC0EFC750459C8D5A /* LOTAnimationCache.h */,
+				45363371B84F4A8D0D2535AD33A5248D /* LOTAnimationTransitionController.h */,
+				EFDFCEC2D37BD23BAD4E551F4C8E0217 /* LOTAnimationView.h */,
+				055BF21F2952EA371813EDBFDAF559D8 /* LOTAnimationView_Compat.h */,
+				E45C8A59B7DE8573DA33AE532019F636 /* LOTBlockCallback.h */,
+				31D7606C7055A74236D65FB118819E54 /* LOTCacheProvider.h */,
+				0DD320F2522DECA6D95C75DA8F52BC19 /* LOTComposition.h */,
+				FA424C4C875D5EDA68D5CB877C6913B0 /* LOTInterpolatorCallback.h */,
+				D12551BD08C0043C32C5639165DFAA95 /* LOTKeypath.h */,
+				C38BFB7B1E3B274A7358E5527CA36267 /* Lottie.h */,
+				A81E12570E2F8D76F9C2890FA01EE52C /* LOTValueCallback.h */,
+				F6F86C1BE152B419FA91174B53ABA95E /* LOTValueDelegate.h */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		F5CB6F00C2658F2D0BCAE20CB932105D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E58B4C302F24A509F9712B690721EF6D /* ModuleL.modulemap */,
+				3E967CABBEE980102C1491EFDACE2AD8 /* ModuleL.xcconfig */,
+				859E854FF9C6EB786195A259B4B01325 /* ModuleL-dummy.m */,
+				6C584C423CA8C7AEA26BA5FB4BB4BEE2 /* ModuleL-prefix.pch */,
+				D0F13FD5B16DEEF4DA83DBC0EAB4F666 /* ModuleL-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../../Pods/Target Support Files/ModuleInStandalone";
+			path = "../../Pods/Target Support Files/ModuleL";
 			sourceTree = "<group>";
 		};
-		E0995D9FF64CB7B00AF1186A34989BBA /* src */ = {
+		FD3C59296528C2C32B78DF222E803D97 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A6440D1E1DFCDC5CF2F42CB6CD4D24A1 /* UtilD.h */,
-				7E466F63681BD995B5736016F3B40DFA /* UtilD.m */,
-			);
-			name = src;
-			path = ModuleD/src;
-			sourceTree = "<group>";
-		};
-		F633E9ECF4616D7F61F1D0AEF0BD149C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				86A081CBC41F85E65A4421A3EBEDB13E /* ModuleL.podspec */,
+				CAF7D00530E3048DE0254806C2111FEB /* ModuleA.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		F990056D5CF5AB5CBFC7661F0B67D79F /* Pod */ = {
+		FEFA2A599F2A28AB93DF1AD45D219172 /* ModuleB */ = {
 			isa = PBXGroup;
 			children = (
-				992D6F04A13ABBA865968CB38AC50E78 /* ModuleInStandalone.podspec */,
+				CFB79BE10979DA8C939A9A8BF2171CC1 /* ModuleB.h */,
+				4C464784A27F5EFF4FC307CA592961A7 /* Pod */,
+				C3E79775D6EF3E3952F198FD111E057E /* src */,
+				AE2091170444ED2DFB0FF7F13E77DEA5 /* Support Files */,
 			);
-			name = Pod;
+			name = ModuleB;
+			path = ../SubProjects/ModuleB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -776,16 +906,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		959386E92A218E6394273DFA91EB2D45 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70502A6BBF16E9F7569A7E4313E1973B /* ModuleL-umbrella.h in Headers */,
-				CE93BF7135B561D214B883F1AAC5616B /* ModuleL.h in Headers */,
-				8D6188F15D2740A938CDAAB7F3AF0F6B /* UtilL.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A2E44B3561222F17A31BEFA91BC16885 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -793,6 +913,39 @@
 				45D3837A3A2F3A64AEA8A1726ABFF589 /* ModuleD-umbrella.h in Headers */,
 				E2915D367B08E4742C0CD29089FF8EDA /* ModuleD.h in Headers */,
 				BA9FF6CB222E5233A1CB2DCB211F8215 /* UtilD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D59D410F64A3B886106BFD3A85EC40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A1EC36A36453DFF5853F38747643D8 /* config.h in Headers */,
+				877298A6785870DC297C97150311AC38 /* decode.h in Headers */,
+				E0D3CBC0648A2DF973AEBE764FF665DA /* demux.h in Headers */,
+				5ED7CDE9CE96AF5049ECBFF33B8D3055 /* encode.h in Headers */,
+				A3C8ED61CFC0C68BFB0CF6BD1F8BF32D /* extras.h in Headers */,
+				6FB38D2CC5303B7D2A8D85A75F86B22F /* format_constants.h in Headers */,
+				EF398A378587EB2578C8DA26155FD864 /* LOTAnimatedControl.h in Headers */,
+				8E3CBCBF012C1BE12860487A7207F9CF /* LOTAnimatedSwitch.h in Headers */,
+				6AB56CFD5E514F6FA6F9D99C471F1A0D /* LOTAnimationCache.h in Headers */,
+				70F7F5BE08915E6CBC9972787331B90B /* LOTAnimationTransitionController.h in Headers */,
+				36995543EE4E57487C6FB284A0A7CD2B /* LOTAnimationView.h in Headers */,
+				F6AD26DF2097C0737761E808B06C46DC /* LOTAnimationView_Compat.h in Headers */,
+				CD9100EA5A61B22968319F7ED1808B28 /* LOTBlockCallback.h in Headers */,
+				E3754E8AA0D39DBE6A6A03CA1276F53D /* LOTCacheProvider.h in Headers */,
+				EC76888575187EDA7E289E7F21C047C8 /* LOTComposition.h in Headers */,
+				6D47BD2456F35184EDB603B8D4BED26F /* LOTInterpolatorCallback.h in Headers */,
+				57DB2E0F09E910D35474B2761DAAE747 /* LOTKeypath.h in Headers */,
+				7786D7460276E27A83978710283C2E45 /* Lottie.h in Headers */,
+				F0AEEA9417FDCD804A2BB85508B9CE32 /* LOTValueCallback.h in Headers */,
+				2071DB2DAA6FB78987127EE58123CBB0 /* LOTValueDelegate.h in Headers */,
+				CE091FC9E3064844880C57CD8CD84BD9 /* ModuleL-umbrella.h in Headers */,
+				8EAC8514E8BE800202503C7F1BB8E3A0 /* ModuleL.h in Headers */,
+				FF6A761947D29264F0779B4119DC65B6 /* mux.h in Headers */,
+				3501C5DC4C0ECDA76E3A9F3475C4BD0A /* mux_types.h in Headers */,
+				9861F5BE3771613B71A3BFCAC04C7D9A /* types.h in Headers */,
+				2761EE9E3B517CD4D99BC6EB736F428E /* UtilL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -854,7 +1007,7 @@
 			buildPhases = (
 				3E17F2D94D14EACAEDC5C67EFEB639C9 /* Sources */,
 				C2713E858AC28B89D5C8594B64A3B0AA /* Frameworks */,
-				959386E92A218E6394273DFA91EB2D45 /* Headers */,
+				B5D59D410F64A3B886106BFD3A85EC40 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1297,7 +1450,7 @@
 /* Begin XCBuildConfiguration section */
 		07FC625ED9A6B388AA49BA9066B875B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E5ECC3BC315774E06699FD0BA94A4B7 /* ModuleL.xcconfig */;
+			baseConfigurationReference = 3E967CABBEE980102C1491EFDACE2AD8 /* ModuleL.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1311,11 +1464,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ModuleL/ModuleL-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ModuleL/ModuleL.modulemap";
 				PRODUCT_MODULE_NAME = ModuleL;
@@ -1332,7 +1481,7 @@
 		};
 		11188C1F42867D8271B69BFE63A6F4CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75E08918C6DA16357CB10D2BC397D749 /* ModuleB.xcconfig */;
+			baseConfigurationReference = 81DEA91A0ECC1986212B638CDF0C6FA5 /* ModuleB.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1346,11 +1495,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ModuleB/ModuleB-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ModuleB/ModuleB.modulemap";
 				PRODUCT_MODULE_NAME = ModuleB;
@@ -1430,7 +1575,7 @@
 		};
 		217438EC7563D468FC6592AD8A99573F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F5C4D367083E1D148A06678BC2454B9 /* ModuleInStandalone.xcconfig */;
+			baseConfigurationReference = 7127777DF61BFBD55FB87FC5507EEF9C /* ModuleInStandalone.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ModuleInStandalone";
@@ -1446,7 +1591,7 @@
 		};
 		30E9A448C1441DF2DE4EB713B71F1BBB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E5ECC3BC315774E06699FD0BA94A4B7 /* ModuleL.xcconfig */;
+			baseConfigurationReference = 3E967CABBEE980102C1491EFDACE2AD8 /* ModuleL.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1460,11 +1605,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ModuleL/ModuleL-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ModuleL/ModuleL.modulemap";
 				PRODUCT_MODULE_NAME = ModuleL;
@@ -1480,7 +1621,7 @@
 		};
 		39A6087B60EDC512A32F6FBA6F09B180 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F5C4D367083E1D148A06678BC2454B9 /* ModuleInStandalone.xcconfig */;
+			baseConfigurationReference = 7127777DF61BFBD55FB87FC5507EEF9C /* ModuleInStandalone.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1494,11 +1635,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ModuleInStandalone/ModuleInStandalone-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ModuleInStandalone/ModuleInStandalone.modulemap";
 				PRODUCT_MODULE_NAME = ModuleInStandalone;
@@ -1515,7 +1652,7 @@
 		};
 		46792323D3AF5C7DC029ACA286215776 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C05B70B6FF69090FD988E307660D4F7 /* ModuleA.xcconfig */;
+			baseConfigurationReference = E67355A30197D4D41DC8212EBE6FF0BC /* ModuleA.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1529,11 +1666,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ModuleA/ModuleA-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ModuleA/ModuleA.modulemap";
 				PRODUCT_MODULE_NAME = ModuleA;
@@ -1550,7 +1683,7 @@
 		};
 		4B4C6227177A3330CFAF260A41B2D050 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C05B70B6FF69090FD988E307660D4F7 /* ModuleA.xcconfig */;
+			baseConfigurationReference = E67355A30197D4D41DC8212EBE6FF0BC /* ModuleA.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1564,11 +1697,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ModuleA/ModuleA-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ModuleA/ModuleA.modulemap";
 				PRODUCT_MODULE_NAME = ModuleA;
@@ -1584,7 +1713,7 @@
 		};
 		515A45CA0760CED720BBA5D71602607E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F5C4D367083E1D148A06678BC2454B9 /* ModuleInStandalone.xcconfig */;
+			baseConfigurationReference = 7127777DF61BFBD55FB87FC5507EEF9C /* ModuleInStandalone.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ModuleInStandalone";
@@ -1600,7 +1729,7 @@
 		};
 		5B491BF8B4FDD445FC088CD11BEF39EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA5CD8535E658121E3EC99D37FD76FE2 /* ModuleD.xcconfig */;
+			baseConfigurationReference = CCB3B307E4224328687BAE443EE97907 /* ModuleD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1614,11 +1743,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ModuleD/ModuleD-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ModuleD/ModuleD.modulemap";
 				PRODUCT_MODULE_NAME = ModuleD;
@@ -1635,7 +1760,7 @@
 		};
 		5F4FDEE04A2B4C402EF6F4BE1C614B89 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA5CD8535E658121E3EC99D37FD76FE2 /* ModuleD.xcconfig */;
+			baseConfigurationReference = CCB3B307E4224328687BAE443EE97907 /* ModuleD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1649,11 +1774,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ModuleD/ModuleD-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ModuleD/ModuleD.modulemap";
 				PRODUCT_MODULE_NAME = ModuleD;
@@ -1684,11 +1805,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ProjectContainerDemo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ProjectContainerDemo/Pods-ProjectContainerDemo.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1722,11 +1839,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-StandaloneProject/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-StandaloneProject/Pods-StandaloneProject.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1760,11 +1873,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-StandaloneProject/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-StandaloneProject/Pods-StandaloneProject.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1782,7 +1891,7 @@
 		};
 		C04FFCD7F359B1E215776A7518963CD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75E08918C6DA16357CB10D2BC397D749 /* ModuleB.xcconfig */;
+			baseConfigurationReference = 81DEA91A0ECC1986212B638CDF0C6FA5 /* ModuleB.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1796,11 +1905,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ModuleB/ModuleB-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ModuleB/ModuleB.modulemap";
 				PRODUCT_MODULE_NAME = ModuleB;
@@ -1816,7 +1921,7 @@
 		};
 		C681CAFDC148D771993694A49377044C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DC363D7811361C765D6E34206AC4305 /* ModuleC.xcconfig */;
+			baseConfigurationReference = 921F5A000B902C774563B181FB647BCC /* ModuleC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1830,11 +1935,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ModuleC/ModuleC-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ModuleC/ModuleC.modulemap";
 				PRODUCT_MODULE_NAME = ModuleC;
@@ -1865,11 +1966,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ProjectContainerDemo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ProjectContainerDemo/Pods-ProjectContainerDemo.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1887,7 +1984,7 @@
 		};
 		CAB53352B7140716B295B1CC514A47A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F5C4D367083E1D148A06678BC2454B9 /* ModuleInStandalone.xcconfig */;
+			baseConfigurationReference = 7127777DF61BFBD55FB87FC5507EEF9C /* ModuleInStandalone.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1901,11 +1998,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ModuleInStandalone/ModuleInStandalone-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ModuleInStandalone/ModuleInStandalone.modulemap";
 				PRODUCT_MODULE_NAME = ModuleInStandalone;
@@ -1921,7 +2014,7 @@
 		};
 		DEF9F215018FA8AF1BA9627781466C69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DC363D7811361C765D6E34206AC4305 /* ModuleC.xcconfig */;
+			baseConfigurationReference = 921F5A000B902C774563B181FB647BCC /* ModuleC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1935,11 +2028,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ModuleC/ModuleC-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ModuleC/ModuleC.modulemap";
 				PRODUCT_MODULE_NAME = ModuleC;

@@ -16,35 +16,35 @@ PODS:
     - ModuleA
 
 DEPENDENCIES:
-  - ModuleA (from `./subProjects/ModuleA`)
-  - ModuleB (from `./subProjects/ModuleB`)
-  - ModuleC (from `./subProjects/ModuleC`)
-  - ModuleD (from `./subProjects/ModuleD`)
+  - ModuleA (from `./SubProjects/ModuleA`)
+  - ModuleB (from `./SubProjects/ModuleB`)
+  - ModuleC (from `./SubProjects/ModuleC`)
+  - ModuleD (from `./SubProjects/ModuleD`)
   - ModuleInStandalone (from `./StandaloneProjects/StandaloneProject/ModuleInStandalone.podspec`)
-  - ModuleL (from `./subProjects/ModuleL`)
+  - ModuleL (from `./SubProjects/ModuleL`)
 
 EXTERNAL SOURCES:
   ModuleA:
-    :path: "./subProjects/ModuleA"
+    :path: "./SubProjects/ModuleA"
   ModuleB:
-    :path: "./subProjects/ModuleB"
+    :path: "./SubProjects/ModuleB"
   ModuleC:
-    :path: "./subProjects/ModuleC"
+    :path: "./SubProjects/ModuleC"
   ModuleD:
-    :path: "./subProjects/ModuleD"
+    :path: "./SubProjects/ModuleD"
   ModuleInStandalone:
     :path: "./StandaloneProjects/StandaloneProject/ModuleInStandalone.podspec"
   ModuleL:
-    :path: "./subProjects/ModuleL"
+    :path: "./SubProjects/ModuleL"
 
 SPEC CHECKSUMS:
-  ModuleA: 28cf4409346d0b53e695f128dac080c287165825
-  ModuleB: a45f5e21d98ca32c6c33ddb10e43bc6a414a392c
-  ModuleC: 908c3df977b4fe124f473e72a1a28a58e4d11cfd
-  ModuleD: e6b921facf720301b3360dc7f33706bbb3909b22
-  ModuleInStandalone: 8103ac2953a3940eb4f25af45ebc55ce02949f35
-  ModuleL: 1acca8f35e15ad43caf3772daba97bee6fa720fc
+  ModuleA: a5cc148546f1689fe8cc1df8361dfdc77b566692
+  ModuleB: 2263e183f83d8692773cb8d70e72f842629c5168
+  ModuleC: ed15b8afa793c0f8c9ef8a3a58f64dae9268ee30
+  ModuleD: 29c50fe83d609fac6af0584063fa9b4be73129e1
+  ModuleInStandalone: 3f7d2e3b5e0556e6606dcf63fe4a5b289ebd8ba8
+  ModuleL: 00fe16eea558511db0fe1b1ddee3d451363f9e53
 
-PODFILE CHECKSUM: 0338db7db3366f30f63be67c416741212f611459
+PODFILE CHECKSUM: 3610439e4d2b6ea44fb234d2c154dd618665b8f1
 
 COCOAPODS: 1.5.3

@@ -35,6 +35,23 @@
 		594F6793211D677100853AF8 /* ModuleC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModuleC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		594F67AB211D7B4E00853AF8 /* ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		594F67AD211D7B7400853AF8 /* ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		594F6A50211F353600853AF8 /* libLottie.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLottie.a; path = ModuleL/lib/Lottie/libLottie.a; sourceTree = "<group>"; };
+		594F6A7E211F386400853AF8 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		594F6A82211F386400853AF8 /* LOTValueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTValueDelegate.h; sourceTree = "<group>"; };
+		594F6A83211F386400853AF8 /* LOTAnimatedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimatedControl.h; sourceTree = "<group>"; };
+		594F6A84211F386400853AF8 /* LOTCacheProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTCacheProvider.h; sourceTree = "<group>"; };
+		594F6A85211F386400853AF8 /* LOTKeypath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTKeypath.h; sourceTree = "<group>"; };
+		594F6A86211F386400853AF8 /* LOTInterpolatorCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTInterpolatorCallback.h; sourceTree = "<group>"; };
+		594F6A87211F386400853AF8 /* LOTAnimatedSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimatedSwitch.h; sourceTree = "<group>"; };
+		594F6A88211F386400853AF8 /* LOTAnimationCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationCache.h; sourceTree = "<group>"; };
+		594F6A89211F386400853AF8 /* Lottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lottie.h; sourceTree = "<group>"; };
+		594F6A8A211F386400853AF8 /* LOTComposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTComposition.h; sourceTree = "<group>"; };
+		594F6A8B211F386400853AF8 /* LOTAnimationTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationTransitionController.h; sourceTree = "<group>"; };
+		594F6A8C211F386400853AF8 /* LOTAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationView.h; sourceTree = "<group>"; };
+		594F6A8D211F386400853AF8 /* LOTAnimationView_Compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationView_Compat.h; sourceTree = "<group>"; };
+		594F6A8E211F386400853AF8 /* LOTValueCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTValueCallback.h; sourceTree = "<group>"; };
+		594F6A8F211F386400853AF8 /* LOTBlockCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTBlockCallback.h; sourceTree = "<group>"; };
+		594F6A90211F386400853AF8 /* libLottie.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLottie.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +86,7 @@
 		594F676C211D62BD00853AF8 /* ModuleL */ = {
 			isa = PBXGroup;
 			children = (
+				594F6A7D211F386400853AF8 /* lib */,
 				594F676D211D62BD00853AF8 /* ModuleL.h */,
 				594F676E211D62BD00853AF8 /* ModuleL.m */,
 				594F678B211D63B200853AF8 /* UtilL.h */,
@@ -81,10 +99,58 @@
 			isa = PBXGroup;
 			children = (
 				594F67AD211D7B7400853AF8 /* ModuleA.framework */,
+				594F6A50211F353600853AF8 /* libLottie.a */,
 				594F67AB211D7B4E00853AF8 /* ModuleA.framework */,
 				594F6793211D677100853AF8 /* ModuleC.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		594F6A7D211F386400853AF8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				594F6A7E211F386400853AF8 /* WebP.framework */,
+				594F6A7F211F386400853AF8 /* Lottie */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		594F6A7F211F386400853AF8 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				594F6A80211F386400853AF8 /* include */,
+				594F6A90211F386400853AF8 /* libLottie.a */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		594F6A80211F386400853AF8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				594F6A81211F386400853AF8 /* Lottie */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		594F6A81211F386400853AF8 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				594F6A82211F386400853AF8 /* LOTValueDelegate.h */,
+				594F6A83211F386400853AF8 /* LOTAnimatedControl.h */,
+				594F6A84211F386400853AF8 /* LOTCacheProvider.h */,
+				594F6A85211F386400853AF8 /* LOTKeypath.h */,
+				594F6A86211F386400853AF8 /* LOTInterpolatorCallback.h */,
+				594F6A87211F386400853AF8 /* LOTAnimatedSwitch.h */,
+				594F6A88211F386400853AF8 /* LOTAnimationCache.h */,
+				594F6A89211F386400853AF8 /* Lottie.h */,
+				594F6A8A211F386400853AF8 /* LOTComposition.h */,
+				594F6A8B211F386400853AF8 /* LOTAnimationTransitionController.h */,
+				594F6A8C211F386400853AF8 /* LOTAnimationView.h */,
+				594F6A8D211F386400853AF8 /* LOTAnimationView_Compat.h */,
+				594F6A8E211F386400853AF8 /* LOTValueCallback.h */,
+				594F6A8F211F386400853AF8 /* LOTBlockCallback.h */,
+			);
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +331,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ModuleL/lib",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ModuleL/lib/Lottie/include/Lottie\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ModuleL/lib/Lottie/include/Lottie\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -276,6 +351,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ModuleL/lib",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ModuleL/lib/Lottie/include/Lottie\"";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ModuleL/lib/Lottie/include/Lottie\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

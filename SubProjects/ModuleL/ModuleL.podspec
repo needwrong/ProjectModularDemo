@@ -14,8 +14,12 @@ Pod::Spec.new do |s|
   s.public_header_files = "**/*.h"
 
   s.dependency 'ModuleA'
+  
+  s.vendored_libraries = "ModuleL/lib/Lottie/libLottie.a"
+  s.vendored_frameworks = "ModuleL/lib/WebP.framework"
 
-  s.pod_target_xcconfig = {"OTHER_LDFLAGS" => '-ObjC'}
+  s.pod_target_xcconfig = {"OTHER_LDFLAGS" => '$(inherited) -ObjC',
+      'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'}
 
   s.static_framework = true
 

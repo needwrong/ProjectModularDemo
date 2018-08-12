@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.public_header_files = "**/*.h"
 
+  s.pod_target_xcconfig = {"OTHER_LDFLAGS" => '$(inherited) -ObjC'}
+  
   s.dependency 'ModuleA'
   s.dependency 'ModuleB'
-
-  s.pod_target_xcconfig = {"OTHER_LDFLAGS" => '-ObjC'}
 
   s.static_framework = true
 

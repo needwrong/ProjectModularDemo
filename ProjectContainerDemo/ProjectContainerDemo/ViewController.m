@@ -40,14 +40,14 @@
     [output appendString:@"\n"];
     
     [output appendString:[UtilL stringMadeByL]];
-    [output appendString:@"\n"];
+    [output appendString:@"\nL uses some third party libs\n"];
+    [UtilL useLibs];
     
     self.txtView.text = output;
     [self.txtView sizeToFit];
     [self.view addSubview:self.txtView];
     
     self.img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"moduleChart"]];
-//    self.img.contentMode = UIViewContentModeScaleAspectFit;
     CGFloat scale = self.img.frame.size.width / self.view.frame.size.width;
     self.img.frame = CGRectMake(0, CGRectGetMaxY(self.txtView.frame), self.view.frame.size.width, self.img.frame.size.height / scale);
     [self.view addSubview:self.img];

@@ -13,4 +13,6 @@
 
 + (NSString *)stringMadeByL;
 
++ (void)useLibs;
+
 @end

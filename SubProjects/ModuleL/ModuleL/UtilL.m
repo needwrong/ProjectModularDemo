@@ -7,6 +7,8 @@
 //
 
 #import "UtilL.h"
+#import "Lottie.h"
+#import <WebP/encode.h>
 
 @implementation UtilL
 
@@ -15,6 +17,13 @@
     NSLog(@"%@\n", str);
     [UtilA stringFromA];
     return str;
+}
+
++ (void)useLibs {
+    LOTAnimationCache *cache = [LOTAnimationCache new];
+    cache = nil;
+    WebPConfig s;
+    s.lossless = 0;
 }
 
 @end

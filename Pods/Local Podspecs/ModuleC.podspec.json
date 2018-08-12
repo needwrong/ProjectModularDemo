@@ -15,6 +15,9 @@
   "source_files": "**/*.{h,m,cc,mm}",
   "requires_arc": true,
   "public_header_files": "**/*.h",
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -ObjC"
+  },
   "dependencies": {
     "ModuleA": [
 
@@ -22,9 +25,6 @@
     "ModuleB": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "OTHER_LDFLAGS": "-ObjC"
   },
   "static_framework": true,
   "prefix_header_contents": "#ifdef __OBJC__\n\n#endif"

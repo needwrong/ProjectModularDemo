@@ -13,11 +13,12 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.public_header_files = "**/*.h"
 
+  s.pod_target_xcconfig = {"OTHER_LDFLAGS" => '$(inherited) -ObjC',
+    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'}
+  
   s.dependency 'ModuleA'
   s.dependency 'ModuleL'
-
-  s.pod_target_xcconfig = {"OTHER_LDFLAGS" => '-ObjC'}
-
+  
   s.static_framework = true
 
   s.prefix_header_contents = <<-EOS

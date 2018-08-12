@@ -8,23 +8,23 @@ project 'ProjectContainerDemo/ProjectContainerDemo.xcodeproj'
 ### Projects
 
 def defModuleA
-    pod 'ModuleA', :path => './subProjects/ModuleA'
+    pod 'ModuleA', :path => './SubProjects/ModuleA'
 end
 
 def defModuleB
-    pod 'ModuleB', :path => './subProjects/ModuleB'
+    pod 'ModuleB', :path => './SubProjects/ModuleB'
 end
 
 def defModuleC
-    pod 'ModuleC', :path => './subProjects/ModuleC'
+    pod 'ModuleC', :path => './SubProjects/ModuleC'
 end
 
 def defModuleD
-    pod 'ModuleD', :path => './subProjects/ModuleD'
+    pod 'ModuleD', :path => './SubProjects/ModuleD'
 end
 
 def defModuleL
-    pod 'ModuleL', :path => './subProjects/ModuleL'
+    pod 'ModuleL', :path => './SubProjects/ModuleL'
 end
 
 def defModuleInStandalone

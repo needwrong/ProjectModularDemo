@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
   s.dependency 'ModuleC'
   s.dependency 'ModuleL'
 
-  s.pod_target_xcconfig = {"OTHER_LDFLAGS" => '-ObjC'}
+  s.pod_target_xcconfig = {"OTHER_LDFLAGS" => '$(inherited) -ObjC',
+    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'}
 
   s.static_framework = true
 

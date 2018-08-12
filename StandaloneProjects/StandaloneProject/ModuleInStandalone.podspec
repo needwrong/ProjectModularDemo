@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'resources' => ['StandaloneProject/support files/*.png']
   }
-  #  spec.resources = ["Images/*.png", "Sounds/*"]
 
   s.requires_arc = true
   s.public_header_files = "src/*.h"
@@ -20,7 +19,7 @@ Pod::Spec.new do |s|
   s.dependency 'ModuleA'
   s.dependency 'ModuleB'
 
-  s.pod_target_xcconfig = {"OTHER_LDFLAGS" => '-ObjC'}
+  s.pod_target_xcconfig = {"OTHER_LDFLAGS" => '$(inherited) -ObjC'}
 
   s.static_framework = true
 
