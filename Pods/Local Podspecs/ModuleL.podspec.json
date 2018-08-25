@@ -13,8 +13,9 @@
     "tag": "0.0.1"
   },
   "source_files": "**/*.{h,m,cc,mm}",
+  "exclude_files": "ModuleL/lib/**.framework/**/*",
   "requires_arc": true,
-  "public_header_files": "**/*.h",
+  "public_header_files": "ModuleL/*.h",
   "dependencies": {
     "ModuleA": [
 

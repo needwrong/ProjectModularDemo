@@ -9,9 +9,10 @@ Pod::Spec.new do |s|
 
   s.source       = {  :git => "./", :tag => "#{s.version}" }
   s.source_files  = "**/*.{h,m,cc,mm}"
+  s.exclude_files = "ModuleL/lib/**.framework/**/*"
 
   s.requires_arc = true
-  s.public_header_files = "**/*.h"
+  s.public_header_files = "ModuleL/*.h"
 
   s.dependency 'ModuleA'
   
