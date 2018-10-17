@@ -1,7 +1,7 @@
 workspace 'ProjectContainer.xcworkspace'
 platform :ios, '8.0'
 
-use_frameworks!
+#use_frameworks!
 
 project 'ProjectContainerDemo/ProjectContainerDemo.xcodeproj'
 
