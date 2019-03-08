@@ -1,50 +1,29 @@
 PODS:
+  - MGJRouter (0.10.0)
   - ModuleA (0.0.1)
-  - ModuleB (0.0.1):
-    - ModuleA
-    - ModuleL
-  - ModuleC (0.0.1):
-    - ModuleA
-    - ModuleB
-  - ModuleD (0.0.1):
-    - ModuleC
-    - ModuleL
-  - ModuleInStandalone (0.0.1):
-    - ModuleA
-    - ModuleB
   - ModuleL (0.0.1):
     - ModuleA
 
 DEPENDENCIES:
-  - ModuleA (from `./SubProjects/ModuleA`)
-  - ModuleB (from `./SubProjects/ModuleB`)
-  - ModuleC (from `./SubProjects/ModuleC`)
-  - ModuleD (from `./SubProjects/ModuleD`)
-  - ModuleInStandalone (from `./StandaloneProjects/StandaloneProject/ModuleInStandalone.podspec`)
-  - ModuleL (from `./SubProjects/ModuleL`)
+  - MGJRouter (~> 0.10.0)
+  - ModuleA (from `./BasicModules/ModuleA`)
+  - ModuleL (from `./BasicModules/ModuleL`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MGJRouter
 
 EXTERNAL SOURCES:
   ModuleA:
-    :path: "./SubProjects/ModuleA"
-  ModuleB:
-    :path: "./SubProjects/ModuleB"
-  ModuleC:
-    :path: "./SubProjects/ModuleC"
-  ModuleD:
-    :path: "./SubProjects/ModuleD"
-  ModuleInStandalone:
-    :path: "./StandaloneProjects/StandaloneProject/ModuleInStandalone.podspec"
+    :path: "./BasicModules/ModuleA"
   ModuleL:
-    :path: "./SubProjects/ModuleL"
+    :path: "./BasicModules/ModuleL"
 
 SPEC CHECKSUMS:
-  ModuleA: a5cc148546f1689fe8cc1df8361dfdc77b566692
-  ModuleB: 2263e183f83d8692773cb8d70e72f842629c5168
-  ModuleC: ed15b8afa793c0f8c9ef8a3a58f64dae9268ee30
-  ModuleD: 29c50fe83d609fac6af0584063fa9b4be73129e1
-  ModuleInStandalone: 3f7d2e3b5e0556e6606dcf63fe4a5b289ebd8ba8
-  ModuleL: 040a9ca576532f2c1ff2dc803921cec9d3165ccc
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
+  ModuleA: 3cf86af730d92e7a79349a34d6fc751c4f895a73
+  ModuleL: d74e20fb8cd3ebfae26306adc2bb547421230308
 
-PODFILE CHECKSUM: 3610439e4d2b6ea44fb234d2c154dd618665b8f1
+PODFILE CHECKSUM: 3e3e54fef2b047131f2c7f02c3030fcf53677742
 
 COCOAPODS: 1.5.3

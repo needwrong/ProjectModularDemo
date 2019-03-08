@@ -5,9 +5,6 @@
       location = "group:ProjectContainerDemo/ProjectContainerDemo.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:StandaloneProjects/StandaloneProject/StandaloneProject.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

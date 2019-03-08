@@ -1,6 +1,0 @@
-framework module ModuleInStandalone {
-  umbrella header "ModuleInStandalone-umbrella.h"
-
-  export *
-  module * { export * }
-}
